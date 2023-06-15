@@ -1,0 +1,9 @@
+E:\WebSites\UcarSrcLibrilay\BitAuto.Ucar.Utils\obj\Debug\ResolveAssemblyReference.cache
+E:\WebSites\UcarSrcLibrilay\BitAuto.Ucar.Utils\obj\Debug\BitAuto.Ucar.Utils.csproj.GenerateResource.Cache
+E:\WebSites\UcarSrcLibrilay\BitAuto.Ucar.Utils\obj\Debug\KangHui.JianHui.Utils.Imaging.BackGround.resources
+E:\WebSites\UcarSrcLibrilay\BitAuto.Ucar.Utils\obj\Debug\KangHui.JianHui.Utils.Imaging.WaterMark.resources
+E:\WebSites\UcarSrcLibrilay\BitAuto.Ucar.Utils\bin\Debug\KangHui.JianHui.Utils.xml
+E:\WebSites\UcarSrcLibrilay\BitAuto.Ucar.Utils\bin\Debug\KangHui.JianHui.Utils.dll
+E:\WebSites\UcarSrcLibrilay\BitAuto.Ucar.Utils\bin\Debug\KangHui.JianHui.Utils.pdb
+E:\WebSites\UcarSrcLibrilay\BitAuto.Ucar.Utils\obj\Debug\KangHui.JianHui.Utils.dll
+E:\WebSites\UcarSrcLibrilay\BitAuto.Ucar.Utils\obj\Debug\KangHui.JianHui.Utils.pdb

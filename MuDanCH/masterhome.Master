@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterhome.master.cs" Inherits="MuDanCH.masterhome" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="Keywords" content="慈航牡丹玉石有限公司" />
+    <meta name="Description" content="慈航牡丹玉石有限公司" />
+    <title>慈航牡丹玉石有限公司</title>
+    <link href="homecss/style.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <link href="homecss/simplefoucs_lrtk.css" rel="stylesheet" />
+    <script src="js/simplefoucs.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <div class="mynav w1000 auto">
+                    <div class="logo_l left">
+                        <a href="/">
+                            <img src="images/index_03.jpg" alt="洛阳慈航牡丹玉石有限公司" /></a>
+                    </div>
+                    <ul class="logo_r right">
+                        <li><a href="#" class="active">网站首页</a></li>
+                        <li><a href="#">企业简介</a></li>
+                        <li><a href="#">玉石文化</a></li>
+                        <li><a href="#">产品中心</a></li>
+                        <li><a href="#">新闻中心</a></li>
+                        <li><a href="#">招贤纳士</a></li>
+                        <li><a href="#">招商加盟</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+            </header>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+        </asp:ContentPlaceHolder>
+            
+    <div class="clear"></div>
+                    <footer class="footer">
+                <div class="w1000 auto copy">
+                    <p>
+                        总公司：洛阳市伊滨区寇店镇政府南一公里路东 电话：0379-67720168    13838871968<br />
+                        洛阳店：洛阳市洛龙区政和路与厚载门街交汇处南30米路西 电话：0379-65863158   13937963036<br />
+                        偃师店：偃师市新新路与华夏路交汇处北路东电话：0379-67739956     15838815866<br />
+                        2015  All Rights Reserved 版权所有·洛阳慈航牡丹玉石有限公司<br />
+                        豫ICP备08009317号-4
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+    </form>
+</body>
+</html>

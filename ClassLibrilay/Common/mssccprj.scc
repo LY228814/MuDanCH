@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[Common.csproj]
+SCC_Aux_Path = "\\Kanghui-server\vssdatabase"
+SCC_Project_Name = "$/ClassLibriary/KangHuiClassLibrary/Common", PYKAAAAA

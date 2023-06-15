@@ -1,0 +1,157 @@
+﻿程序集名称：KangHui.JianHui.Utils.dll
+发布时间：2008-08-01
+发布版本：1.0.2.0
+VSS地址：$/B二手车/Ucar类库/Release/KangHui.JianHui.Utils.dll
+
+目录结构：
+KangHui.JianHui.Utils(优卡公用类库程序集)
+
+    KangHui.JianHui.Utils.Common(存放公用方法类的命名空间)
+    
+        ConfigHelper(读取配置文件信息的功能类)
+        
+            GetAppSettingValue(读取配置信息的方法，返回字符串，+1次重载)
+            
+            GetAppSettingStringArrayValue(读取配置信息的方法，返回字符串数组，+1次重载)
+            
+            GetAppSettingInt32Value(读取配置信息的方法，返回整数，+1次重载)
+            
+            GetAppSettingInt32ArrayValue(读取配置信息的方法，返回整数数组，+1次重载)
+            
+            GetAppSettingBooleanValue(读取配置信息的方法，返回布尔型变量，+1次重载)
+            
+            GetConnectionString(读取连接字符串信息的方法，+1次重载)    
+                
+        ControlHelper(对控件进行操作的功能类)
+        
+            BindDropDownList(绑定下拉框的方法，+3次重载)
+            
+            InitDropDownListByValue(根据值初始化下拉框的方法)
+            
+            BindRadioButtonList(绑定单选框列表的方法，+3次重载)
+            
+            BindCheckBoxList(绑定复选框列表的方法，+3次重载)
+            
+            InitCheckBoxList(初始化复选框列表的方法，+1次重载)
+            
+            GetCheckBoxListValues(获取复选框列表值的方法，+1次重载)
+            
+            SelectAllCheckBoxListItems(全选复选框列表的方法)
+            
+            CancelSelectAllCheckBoxListItems(取消全选复选框列表的方法)
+                    
+        ConvertHelper(对数据类型进行转换的功能类)
+        
+            ToString(将对象变量转成字符串变量的方法)
+            
+            ToInt32(将对象变量转成32位整数型变量的方法)
+            
+            ToInt64(将对象变量转成64位整数型变量的方法)
+            
+            ToDouble(将对象变量转成双精度浮点型变量的方法)
+            
+            ToDecimal(将对象变量转成十进制数字变量的方法)
+            
+            ToBoolean(将对象变量转成布尔型变量的方法)
+            
+            ToDateTime(将对象变量转成日期型变量的方法)
+            
+            ToStringArray(根据分隔符将字符串变量转成字符串数组的方法)
+            
+            ToInt32Array(根据分隔符将字符串变量转成32位整数型数组的方法)  
+                  
+        EncryptHelper(对字符串进行加密的功能类)
+        
+            DesEncrypt(DES方式加密字符串的方法)
+            
+            DesDecrypt(DES方式解密字符串的方法)
+            
+            MD5Encrypt(MD5方式加密字符串的方法)
+            
+            SHA1Encrypt(SHA1方式加密字符串的方法)  
+                  
+        FileHelper(对文件进行处理的功能类)
+        
+            IsExist(判断文件是否存在的方法)
+            
+            CreateDirectory(创建目录的方法)
+            
+            GetSuffix(取扩展名的方法)
+            
+            CopyFile(复制文件的方法)
+            
+            DeleteFile(删除文件的方法)
+            
+            ReadFile(读取文件内容的方法，+1次重载)
+            
+            AppendFile(追加文件内容的方法，+1次重载)
+            
+            UpdateFile(更新文件内容的方法，+1次重载)
+            
+            SaveFile(保存上传文件的方法，+1次重载)
+            
+            DownloadFile(下载文件的方法)
+            
+            ReadWebFile(读取网络文件内容的方法，+1次重载)
+            
+            GetFiles(获取指定目录下所有文件名的方法，+1次重载) 
+                  
+        MailHelper(发送邮件的功能类)
+        
+            SendEmail(发送邮件的方法，+3次重载)     
+               
+        ScriptHelper(在页面中输出脚本的功能类)
+        
+            ShowAlertScript(显示消息提示对话框的方法)
+            
+            ShowConfirmScript(点击控件消息确认提示框的方法)
+            
+            ShowOpenScript(点击控件打开窗体的方法，+1次重载)
+            
+            ShowOpenMaxScript(点击控件打开最大化窗体的方法)
+            
+            ShowCloseScript(关闭窗体的方法，+1次重载)
+            
+            ShowAlertAndCloseScript(显示消息确认提示框，并关闭窗体的方法，+1次重载)
+            
+            ShowAlertAndCloseRefreshScript(显示消息确认提示框，并关闭窗体，刷新父窗体的方法，+1次重载)
+            
+            ShowAlertAndRedirectScript(显示消息提示对话框，并进行页面跳转的方法)
+            
+            ShowAlertAndTopRedirectScript(显示消息提示对话框，并在最上层页面进行跳转的方法)
+            
+            ShowCustomScript(输出自定义脚本信息的方法)       
+             
+        StringHelper(对字符串进行处理的功能类)
+        
+            GetByteLength(获取字符串的实际字节长度的方法)
+            
+            SubStringByBytes(按字节数截取字符串的方法)
+            
+            ConvertEncoding(转换字符串编码的方法)
+            
+            ConvertDbcToSbcString(将全角字符串转成半角字符串的方法)
+            
+            Replace(根据正则表达式替换字符串内容的方法)
+            
+            IsMatchRegularExpression(判断字符串是否匹配正则表达式的方法)
+            
+            GetFirstCharPY(获取字符串首字母的方法)
+            
+    KangHui.JianHui.Utils.Imaging(存放图片处理功能类的命名空间)
+    
+        ImageHelper(对图片进行处理的功能类)
+        
+            SaveImage(保存上传图片的方法，+3次重载)
+            
+    KangHui.JianHui.Utils.UrlRewriter(存放地址重写功能类的命名空间)
+    
+    KangHui.JianHui.Utils.WebControls(存放自定义Web控件类的命名空间)
+    
+        AspNetPager(分页控件，基于AspNetPager7.02修改)
+        
+        SuperImage(自定义的图片显示控件)
+        
+        MarqueePanel(可以实现连续无缝滚动效果的容器控件)
+        
+        SubmitOnceButton(防止重复提交的按钮)

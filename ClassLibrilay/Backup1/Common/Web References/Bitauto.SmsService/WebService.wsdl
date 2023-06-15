@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UcarSendNow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phonelist" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="num" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UcarSendNowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UcarSendNowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewSendMsgByTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phonelist" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="SendTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewSendMsgByTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NewSendMsgByTimeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewSendMsgNowByDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phonemsg">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewSendMsgNowByDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NewSendMsgNowByDataSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewSendMsgNow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phonelist" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewSendMsgNowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NewSendMsgNowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UcarReceive">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UcarReceiveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UcarReceiveResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceiveMsg">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceiveMsgResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReceiveMsgResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceiveMsgByTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="starttime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="endtime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceiveMsgByTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReceiveMsgByTimeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResult">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResultResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetResultResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UcarSendNowSoapIn">
+    <wsdl:part name="parameters" element="tns:UcarSendNow" />
+  </wsdl:message>
+  <wsdl:message name="UcarSendNowSoapOut">
+    <wsdl:part name="parameters" element="tns:UcarSendNowResponse" />
+  </wsdl:message>
+  <wsdl:message name="NewSendMsgByTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:NewSendMsgByTime" />
+  </wsdl:message>
+  <wsdl:message name="NewSendMsgByTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:NewSendMsgByTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="NewSendMsgNowByDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:NewSendMsgNowByDataSet" />
+  </wsdl:message>
+  <wsdl:message name="NewSendMsgNowByDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:NewSendMsgNowByDataSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="NewSendMsgNowSoapIn">
+    <wsdl:part name="parameters" element="tns:NewSendMsgNow" />
+  </wsdl:message>
+  <wsdl:message name="NewSendMsgNowSoapOut">
+    <wsdl:part name="parameters" element="tns:NewSendMsgNowResponse" />
+  </wsdl:message>
+  <wsdl:message name="UcarReceiveSoapIn">
+    <wsdl:part name="parameters" element="tns:UcarReceive" />
+  </wsdl:message>
+  <wsdl:message name="UcarReceiveSoapOut">
+    <wsdl:part name="parameters" element="tns:UcarReceiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReceiveMsgSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReceiveMsg" />
+  </wsdl:message>
+  <wsdl:message name="GetReceiveMsgSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReceiveMsgResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReceiveMsgByTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReceiveMsgByTime" />
+  </wsdl:message>
+  <wsdl:message name="GetReceiveMsgByTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReceiveMsgByTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetResultSoapIn">
+    <wsdl:part name="parameters" element="tns:GetResult" />
+  </wsdl:message>
+  <wsdl:message name="GetResultSoapOut">
+    <wsdl:part name="parameters" element="tns:GetResultResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceSoap">
+    <wsdl:operation name="UcarSendNow">
+      <wsdl:input message="tns:UcarSendNowSoapIn" />
+      <wsdl:output message="tns:UcarSendNowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NewSendMsgByTime">
+      <wsdl:input message="tns:NewSendMsgByTimeSoapIn" />
+      <wsdl:output message="tns:NewSendMsgByTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NewSendMsgNowByDataSet">
+      <wsdl:input message="tns:NewSendMsgNowByDataSetSoapIn" />
+      <wsdl:output message="tns:NewSendMsgNowByDataSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NewSendMsgNow">
+      <wsdl:input message="tns:NewSendMsgNowSoapIn" />
+      <wsdl:output message="tns:NewSendMsgNowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UcarReceive">
+      <wsdl:input message="tns:UcarReceiveSoapIn" />
+      <wsdl:output message="tns:UcarReceiveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReceiveMsg">
+      <wsdl:input message="tns:GetReceiveMsgSoapIn" />
+      <wsdl:output message="tns:GetReceiveMsgSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReceiveMsgByTime">
+      <wsdl:input message="tns:GetReceiveMsgByTimeSoapIn" />
+      <wsdl:output message="tns:GetReceiveMsgByTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResult">
+      <wsdl:input message="tns:GetResultSoapIn" />
+      <wsdl:output message="tns:GetResultSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceSoap" type="tns:WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UcarSendNow">
+      <soap:operation soapAction="http://tempuri.org/UcarSendNow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewSendMsgByTime">
+      <soap:operation soapAction="http://tempuri.org/NewSendMsgByTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewSendMsgNowByDataSet">
+      <soap:operation soapAction="http://tempuri.org/NewSendMsgNowByDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewSendMsgNow">
+      <soap:operation soapAction="http://tempuri.org/NewSendMsgNow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UcarReceive">
+      <soap:operation soapAction="http://tempuri.org/UcarReceive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceiveMsg">
+      <soap:operation soapAction="http://tempuri.org/GetReceiveMsg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceiveMsgByTime">
+      <soap:operation soapAction="http://tempuri.org/GetReceiveMsgByTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResult">
+      <soap:operation soapAction="http://tempuri.org/GetResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceSoap12" type="tns:WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UcarSendNow">
+      <soap12:operation soapAction="http://tempuri.org/UcarSendNow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewSendMsgByTime">
+      <soap12:operation soapAction="http://tempuri.org/NewSendMsgByTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewSendMsgNowByDataSet">
+      <soap12:operation soapAction="http://tempuri.org/NewSendMsgNowByDataSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewSendMsgNow">
+      <soap12:operation soapAction="http://tempuri.org/NewSendMsgNow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UcarReceive">
+      <soap12:operation soapAction="http://tempuri.org/UcarReceive" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceiveMsg">
+      <soap12:operation soapAction="http://tempuri.org/GetReceiveMsg" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceiveMsgByTime">
+      <soap12:operation soapAction="http://tempuri.org/GetReceiveMsgByTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResult">
+      <soap12:operation soapAction="http://tempuri.org/GetResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="WebServiceSoap" binding="tns:WebServiceSoap">
+      <soap:address location="http://sms.bitauto.com/WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceSoap12" binding="tns:WebServiceSoap12">
+      <soap12:address location="http://sms.bitauto.com/WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

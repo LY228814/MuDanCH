@@ -1,0 +1,64 @@
+E:\WebSites\UcarSrcLibrilay\BaseClass\obj\Debug\ResolveAssemblyReference.cache
+E:\WebSites\UcarSrcLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.dll
+E:\WebSites\UcarSrcLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.pdb
+E:\WebSites\UcarSrcLibrilay\BaseClass\bin\Debug\KangHui.Common.dll
+E:\WebSites\UcarSrcLibrilay\BaseClass\bin\Debug\KangHui.WebControls.dll
+E:\WebSites\UcarSrcLibrilay\BaseClass\bin\Debug\KangHui.WebControls.pdb
+E:\WebSites\UcarSrcLibrilay\BaseClass\bin\Debug\KangHui.Common.pdb
+E:\WebSites\UcarSrcLibrilay\BaseClass\bin\Debug\en\KangHui.WebControls.resources.dll
+E:\WebSites\UcarSrcLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.dll
+E:\WebSites\UcarSrcLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.pdb
+E:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.dll
+E:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.pdb
+E:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.Common.dll
+E:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.WebControls.dll
+E:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.WebControls.pdb
+E:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.Common.pdb
+E:\KangHuiClassLibrilay\BaseClass\bin\Debug\en\KangHui.WebControls.resources.dll
+E:\KangHuiClassLibrilay\BaseClass\obj\Debug\ResolveAssemblyReference.cache
+E:\KangHuiClassLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.dll
+E:\KangHuiClassLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.pdb
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.pdb
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.Common.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.WebControls.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.WebControls.pdb
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.Common.pdb
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BaseClass\bin\Debug\en\KangHui.WebControls.resources.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BaseClass\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.pdb
+C:\Users\Administrator\Desktop\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.dll
+C:\Users\Administrator\Desktop\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.pdb
+C:\Users\Administrator\Desktop\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.Common.dll
+C:\Users\Administrator\Desktop\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.WebControls.dll
+C:\Users\Administrator\Desktop\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.Common.pdb
+C:\Users\Administrator\Desktop\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.WebControls.pdb
+C:\Users\Administrator\Desktop\KangHuiClassLibrilay\BaseClass\bin\Debug\en\KangHui.WebControls.resources.dll
+C:\Users\Administrator\Desktop\KangHuiClassLibrilay\BaseClass\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\KangHuiClassLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.dll
+C:\Users\Administrator\Desktop\KangHuiClassLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.pdb
+G:\KangHuiClassLibrilay\BaseClass\obj\Debug\ResolveAssemblyReference.cache
+G:\KangHuiClassLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.pdb
+G:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.dll
+G:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.pdb
+G:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.Common.dll
+G:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.WebControls.dll
+G:\KangHuiClassLibrilay\BaseClass\bin\Debug\MySql.Data.dll
+G:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.Common.pdb
+G:\KangHuiClassLibrilay\BaseClass\bin\Debug\KangHui.WebControls.pdb
+G:\KangHuiClassLibrilay\BaseClass\bin\Debug\en\KangHui.WebControls.resources.dll
+G:\KangHuiClassLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.dll
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.dll
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\bin\Debug\KangHui.BaseClass.pdb
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\bin\Debug\KangHui.Common.dll
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\bin\Debug\KangHui.WebControls.dll
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\bin\Debug\KangHui.Common.pdb
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\bin\Debug\KangHui.Common.dll.config
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\bin\Debug\KangHui.WebControls.pdb
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\bin\Debug\en\KangHui.WebControls.resources.dll
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\obj\Debug\BaseClass.csprojAssemblyReference.cache
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\obj\Debug\BaseClass.csproj.CoreCompileInputs.cache
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\obj\Debug\BaseClass.csproj.CopyComplete
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.dll
+C:\Users\YUANPP\Desktop\MuDanCH\ClassLibrilay\BaseClass\obj\Debug\KangHui.BaseClass.pdb

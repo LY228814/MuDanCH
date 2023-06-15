@@ -1,0 +1,55 @@
+/*
+真正实现可按任意字段排序的分页存储过程v1.0
+*/
+CREATE procedure dbo.p_GetPageData_NotIn 
+ @tblName varchar(1000),		-- 表名 
+ @strGetFields varchar(1000),   -- 显示字段名
+ @keyCol varchar(100),			-- 主键字段  
+ @strWhere varchar(1000) = '',  -- 查询条件 (注意: 不要加 where)
+ @strGroupBy varchar(1000)='',  -- 分组条件
+ @strOrder varchar(1000) ='',   -- 排序条件		 
+ @pageSize int = 10,			-- 页尺寸 
+ @pageIndex int = 1	 ,			-- 页码   
+ @counts int output				-- 返回记录总数, 这里作运行后返回的记录总数分页用 
+AS  
+declare @strSQL varchar(6000)		-- 主语句
+declare @CountSQL nVarchar(4000)	-- 获取总行数的语句 
+declare @preDataCount  int			-- 本页以前的数据行数
+
+if (@strWhere ='') set @strWhere ='1=1'
+set @strWhere =' where '+ @strWhere
+if(@strGroupBy!='') set @strGroupBy= ' Group By ' + @strGroupBy
+if(@strOrder!='')  set @strOrder =' Order By ' + @strOrder
+set @preDataCount=(@PageIndex-1)*@PageSize
+
+if(@strGroupBy!='')
+	set @CountSQL='select @counts=count(*) from (select 1 as tmpField from  ' + @tblName + @strWhere + @strGroupBy +') as tmpTable'
+else
+	set @CountSQL='select @counts=count(*) from  ' + @tblName + @strWhere + @strGroupBy
+
+if(@PageIndex=1)
+begin
+	set @strSQL='SELECT TOP {ItemsPerPage} {ShowFields}	FROM {Table} {Where} {Group} {SortColumn}'  
+end
+else
+begin 
+	set @strSQL ='SELECT TOP {ItemsPerPage} {ShowFields}
+	FROM {Table} 
+	{Where} AND {RowID} NOT IN 
+		(SELECT TOP  {PreDataCount} {RowID} FROM {Table} {Where} {Group} {SortColumn} )
+	{Group}  {SortColumn}'  
+end
+
+set @strSQL= replace(@strSQL,'{Table}',@tblName)
+set @strSQL= replace(@strSQL,'{ShowFields}',@strGetFields)
+set @strSQL= replace(@strSQL,'{ItemsPerPage}', str(@PageSize))
+set @strSQL= replace(@strSQL,'{RowID}', @keyCol)
+set @strSQL= replace(@strSQL,'{Where}', @strWhere)
+set @strSQL= replace(@strSQL,'{Group}', @strGroupBy)
+set @strSQL= replace(@strSQL,'{SortColumn}', @strOrder) 
+set @strSQL= replace(@strSQL,'{PreDataCount}', @preDataCount)  
+
+exec(@strSQL)
+
+exec sp_executesql @CountSQL, N'@counts int out ',@counts output
+GO

@@ -1,0 +1,42 @@
+E:\WebSites\UcarSrcLibrilay\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\KangHui.BLL.dll
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\KangHui.BLL.pdb
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\KangHui.DAL.dll
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\KangHui.WebControls.dll
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\KangHui.BaseClass.dll
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\KangHui.Common.dll
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\KangHui.WebControls.pdb
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\KangHui.DAL.pdb
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\KangHui.BaseClass.pdb
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\KangHui.Common.pdb
+E:\WebSites\UcarSrcLibrilay\BLL\bin\Debug\en\KangHui.WebControls.resources.dll
+E:\WebSites\UcarSrcLibrilay\BLL\obj\Debug\KangHui.BLL.dll
+E:\WebSites\UcarSrcLibrilay\BLL\obj\Debug\KangHui.BLL.pdb
+E:\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.BLL.dll
+E:\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.BLL.pdb
+E:\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.DAL.dll
+E:\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.WebControls.dll
+E:\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.BaseClass.dll
+E:\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.Common.dll
+E:\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.WebControls.pdb
+E:\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.DAL.pdb
+E:\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.Common.pdb
+E:\KangHuiClassLibrilay\BLL\bin\Debug\en\KangHui.WebControls.resources.dll
+E:\KangHuiClassLibrilay\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\KangHuiClassLibrilay\BLL\obj\Debug\KangHui.BLL.dll
+E:\KangHuiClassLibrilay\BLL\obj\Debug\KangHui.BLL.pdb
+E:\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.BaseClass.pdb
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.BLL.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.DAL.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.WebControls.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.BaseClass.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.Common.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.WebControls.pdb
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.BaseClass.pdb
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\KangHui.Common.pdb
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\bin\Debug\en\KangHui.WebControls.resources.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\obj\Debug\KangHui.BLL.dll
+C:\Documents and Settings\Administrator\桌面\杉杉专用\KangHuiClassLibrilay\BLL\obj\Debug\KangHui.BLL.pdb

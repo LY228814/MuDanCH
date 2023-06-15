@@ -1,0 +1,12 @@
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\bin\Debug\Ucar.DAL.dll
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\bin\Debug\Ucar.DAL.pdb
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\bin\Debug\Ucar.BaseClass.dll
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\bin\Debug\Ucar.Common.dll
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\bin\Debug\Ucar.WebControls.dll
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\bin\Debug\Ucar.WebControls.pdb
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\bin\Debug\Ucar.BaseClass.pdb
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\bin\Debug\Ucar.Common.pdb
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\bin\Debug\en\Ucar.WebControls.resources.dll
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\obj\Debug\Ucar.DAL.dll
+F:\AllProject090219\B二手车\Ucar类库\Src\DAL\obj\Debug\Ucar.DAL.pdb

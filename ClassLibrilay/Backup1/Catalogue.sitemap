@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode>
+      <!--Ucar.Common-->
+      <siteMapNode title="Ucar.Common.dll (Ucar公用方法库; 版本:2.0.0.0; 最后更新日期:2007-10-18; 依赖项:无; 服务引用:http://sms.bitauto.com/WebService.asmx)">
+        <!--ConfigHelper-->
+        <siteMapNode title="ConfigHelper (用于读取配置文件信息的类)">
+          <siteMapNode title="GetAppSetting() : string (读取字符串类型配置信息的方法，重载1次)">
+            <siteMapNode title="string (配置信息键)"/>
+            <siteMapNode title="string (配置信息键), bool (配置文件里没有该配置时是否抛出异常)"/>
+          </siteMapNode>
+          <siteMapNode title="GetAppSettingInteger() : int (读取整数类型配置信息的方法，重载1次)">
+            <siteMapNode title="string (配置信息键)"/>
+            <siteMapNode title="string (配置信息键), bool (配置文件里没有该配置时是否抛出异常)"/>
+          </siteMapNode>
+          <siteMapNode title="GetAppSettingBoolean() : bool (读取布尔类型配置信息的方法，重载1次)">
+            <siteMapNode title="string (配置信息键)"/>
+            <siteMapNode title="string (配置信息键), bool (配置文件里没有该配置时是否抛出异常)"/>
+          </siteMapNode>
+          <siteMapNode title="GetConnectionString() : string (读取连接字符串信息的方法)">
+            <siteMapNode title="string (连接字符串信息键)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--ControlHelper-->
+        <siteMapNode title="ControlHelper (对控件进行操作的类)">
+          <siteMapNode title="BindDropDownList() : void (绑定下拉框的方法，重载3次)">
+            <siteMapNode title="DropDownList (下拉框), ArrayList (数据集合)"/>
+            <siteMapNode title="DropDownList (下拉框), DataSet (数据集)"/>
+            <siteMapNode title="DropDownList (下拉框), DataSet (数据集), string (文本字段), string (值字段)"/>
+            <siteMapNode title="DropDownList (下拉框), DataView (自定义视图), string (文本字段), string (值字段)"/>
+          </siteMapNode>
+          <siteMapNode title="InitDropDownListByValue() : void (根据值初始化下拉框的方法)">
+            <siteMapNode title="DropDownList (下拉框), string (值)"/>
+          </siteMapNode>
+          <siteMapNode title="BindRadioButtonList() : void (绑定单选框列表的方法，重载3次)">
+            <siteMapNode title="RadioButtonList (单选框列表), ArrayList (数据集合)"/>
+            <siteMapNode title="RadioButtonList (单选框列表), DataSet (数据集)"/>
+            <siteMapNode title="RadioButtonList (单选框列表), DataSet (数据集), string (文本字段), string (值字段)"/>
+            <siteMapNode title="RadioButtonList (单选框列表), DataView (自定义视图), string (文本字段), string (值字段)"/>
+          </siteMapNode>
+          <siteMapNode title="BindCheckBoxList() : void (绑定复选框列表的方法，重载3次)">
+            <siteMapNode title="CheckBoxList (复选框列表), ArrayList (数据集合)"/>
+            <siteMapNode title="CheckBoxList (复选框列表), DataSet (数据集)"/>
+            <siteMapNode title="CheckBoxList (复选框列表), DataSet (数据集), string (文本字段), string (值字段)"/>
+            <siteMapNode title="CheckBoxList (复选框列表), DataView (自定义视图), string (文本字段), string (值字段)"/>
+          </siteMapNode>
+          <siteMapNode title="InitCheckBoxList() : void (初始化复选框列表的方法，重载1次)">
+            <siteMapNode title="CheckBoxList (复选框列表), string[] (数据字符串数组)"/>
+            <siteMapNode title="CheckBoxList (复选框列表), string (逗号分割的数据字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="GetCheckBoxListValues() : string (获取复选框列表值的方法)">
+            <siteMapNode title="CheckBoxList (复选框列表)"/>
+          </siteMapNode>
+          <siteMapNode title="GetCheckBoxListValueArray() : string[] (获取复选框列表值的方法)">
+            <siteMapNode title="CheckBoxList (复选框列表)"/>
+          </siteMapNode>
+          <siteMapNode title="IsDataSetHasData() : bool (判断数据集是否有数据的方法)">
+            <siteMapNode title="DataSet (数据集)"/>
+          </siteMapNode>
+          <siteMapNode title="IsDataTableHasData() : bool (判断数据表是否有数据的方法)">
+            <siteMapNode title="DataTable (数据表)"/>
+          </siteMapNode>
+          <siteMapNode title="SelectAllCheckBoxListItems() : void (全选复选框列表的方法)">
+            <siteMapNode title="CheckBoxList (复选框列表)"/>
+          </siteMapNode>
+          <siteMapNode title="CancelSelectAllCheckBoxListItems() : void (取消全选复选框列表的方法)">
+            <siteMapNode title="CheckBoxList (复选框列表)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--ConvertHelper-->
+        <siteMapNode title="ConvertHelper (用于把对象型数据转成特定数据类型的类)">
+          <siteMapNode title="GetString() : string (将对象变量转成字符串变量的方法)">
+            <siteMapNode title="object (对象变量)"/>
+          </siteMapNode>
+          <siteMapNode title="GetInteger() : int (将对象变量转成32位整数型变量的方法)">
+            <siteMapNode title="object (对象变量)"/>
+          </siteMapNode>
+          <siteMapNode title="GetLong() : long (将对象变量转成64位整数型变量的方法)">
+            <siteMapNode title="object (对象变量)"/>
+          </siteMapNode>
+          <siteMapNode title="GetDouble() : double (将对象变量转成双精度浮点型变量的方法)">
+            <siteMapNode title="object (对象变量)"/>
+          </siteMapNode>
+          <siteMapNode title="GetDecimal() : decimal (将对象变量转成十进制数字变量的方法)">
+            <siteMapNode title="object (对象变量)"/>
+          </siteMapNode>
+          <siteMapNode title="GetBoolean() : bool (将对象变量转成布尔型变量的方法)">
+            <siteMapNode title="object (对象变量)"/>
+          </siteMapNode>
+          <siteMapNode title="GetDateTimeString() : string (将对象变量转成日期时间型字符串变量的方法)">
+            <siteMapNode title="object (对象变量), string (时间字符串格式，例：yyyy-MM-dd)"/>
+          </siteMapNode>
+          <siteMapNode title="GetShortDateString() : string (将对象变量转成日期字符串变量的方法)">
+            <siteMapNode title="object (对象变量)"/>
+          </siteMapNode>
+          <siteMapNode title="GetDateTime() : DateTime (将对象变量转成日期型变量的方法)">
+            <siteMapNode title="object (对象变量)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--EncryptionHelper-->
+        <siteMapNode title="EncryptionHelper (用于进行字符串加密的类)">
+          <siteMapNode title="DesEncrypt() : string (DES方式加密字符串的方法)">
+            <siteMapNode title="string (要进行加密的字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="DesDecrypt() : string (DES方式解密字符串的方法)">
+            <siteMapNode title="string (要进行解密的字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="MD5Encrypt() : string (MD5方式加密字符串的方法)">
+            <siteMapNode title="string (要进行加密的字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="SHA1Encrypt() : string (SHA1方式加密字符串的方法)">
+            <siteMapNode title="string (要进行加密的字符串)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--ExcelHelper-->
+        <siteMapNode title="ExcelHelper (用于对Excel文件进行处理的类)">
+          <siteMapNode title="ExportToExcel() : void (将数据导出到Excel的方法)">
+            <siteMapNode title="string[] (含有表头标题文字字符串数组), DataSet (数据集), ExportFormat (枚举，导出格式), string (导出文件名)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--FileHelper-->
+        <siteMapNode title="FileHelper (对文件进行处理的类)">
+          <siteMapNode title="GetFileName() : string (得到文件名的方法)">
+            <siteMapNode title="string (完整文件名)"/>
+          </siteMapNode>
+          <siteMapNode title="CreateDirectory() : void (创建目录的方法)">
+            <siteMapNode title="string (要创建目录的路径)"/>
+          </siteMapNode>
+          <siteMapNode title="GetSuffix() : string (取扩展名的方法)">
+            <siteMapNode title="string (完整文件名)"/>
+          </siteMapNode>
+          <siteMapNode title="BuildFileNameByTime() : string (根据时间合成文件名的方法，重载1次)">
+            <siteMapNode title="string (完整文件名)"/>
+            <siteMapNode title="string (完整文件名), string (自定义完整文件名，不为空时会将此项作为文件名，反之根据时间合成文件名)"/>
+          </siteMapNode>
+          <siteMapNode title="RemoveFile() : void (删除文件的方法)">
+            <siteMapNode title="string (完整文件名)"/>
+          </siteMapNode>
+          <siteMapNode title="ReNameFile() : void (重命名文件的方法)">
+            <siteMapNode title="string (完整文件名), string (新完整文件名)"/>
+          </siteMapNode>
+          <siteMapNode title="AppendFile() : void (往文件里追加内容的方法，重载1次)">
+            <siteMapNode title="string (要追加的内容), string (完整文件名)"/>
+            <siteMapNode title="string (要追加的内容), string (完整文件名), Encoding (文件编码)"/>
+          </siteMapNode>
+          <siteMapNode title="UpdateFile() : void (将内容写入文件中并自动创建文件和目录的方法，重载1次)">
+            <siteMapNode title="string (要写入的内容), string (完整文件名)"/>
+            <siteMapNode title="string (要写入的内容), string (完整文件名), Encoding (文件编码)"/>
+          </siteMapNode>
+          <siteMapNode title="ReadPageModel() : string (读出模版数据的方法)">
+            <siteMapNode title="string (模版地址)"/>
+            <siteMapNode title="string (模版地址), Encoding (文件编码)"/>
+          </siteMapNode>
+          <siteMapNode title="SaveFileToServer() : void (保存上传文件的方法)">
+            <siteMapNode title="HttpPostedFile(文件对象), string (目录文件夹), ref string (回传保存绝对路径)"/>
+          </siteMapNode>
+          <siteMapNode title="FileDownload() : void (文件下载的方法)">
+            <siteMapNode title="string (完整文件名), string (下载显示的文件名)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--ImageHelper-->
+        <siteMapNode title="ImageHelper (对图片进行处理的类)">
+          <siteMapNode title="SavePicToServer() : int (保存上传图片的方法，重载7次)">
+            <siteMapNode title="HttpPostedFile (上传的图片), string (图片物理路径), ref string (图片数据库路径)"/>
+            <siteMapNode title="HttpPostedFile (上传的图片), string (图片物理路径), ref string (图片数据库路径), ref string (异常信息)"/>
+            <siteMapNode title="HttpPostedFile (上传的图片), string (图片物理路径), ref string (图片数据库路径), ref string (异常信息), int[] (不同规格的缩略图宽度), string[] (不同规格的缩略图后缀)"/>
+            <siteMapNode title="HttpPostedFile (上传的图片), string (图片物理路径), ref string (图片数据库路径), ref string (异常信息), int[] (不同规格的缩略图宽度), string[] (不同规格的缩略图后缀), ref string (异常信息)"/>
+            <siteMapNode title="HttpPostedFile (上传的图片), string (图片物理路径), ref string (图片数据库路径), bool (是否需要水印), WaterMarkType (枚举，水印类型), WaterMarkPosition (枚举，水印位置), string (水印内容)"/>
+            <siteMapNode title="HttpPostedFile (上传的图片), string (图片物理路径), ref string (图片数据库路径), bool (是否需要水印), WaterMarkType (枚举，水印类型), WaterMarkPosition (枚举，水印位置), string (水印内容), ref string (异常信息)"/>
+            <siteMapNode title="HttpPostedFile (上传的图片), string (图片物理路径), ref string (图片数据库路径), bool (是否需要缩略图), int[] (不同规格的缩略图宽度), string[] (不同规格的缩略图后缀), bool (是否需要水印), WaterMarkType (枚举，水印类型), WaterMarkPosition (枚举，水印位置), string (水印内容)"/>
+            <siteMapNode title="HttpPostedFile (上传的图片), string (图片物理路径), ref string (图片数据库路径), bool (是否需要缩略图), int[] (不同规格的缩略图宽度), string[] (不同规格的缩略图后缀), bool (是否需要水印), WaterMarkType (枚举，水印类型), WaterMarkPosition (枚举，水印位置), string (水印内容), ref string (异常信息)"/>
+          </siteMapNode>
+          <siteMapNode title="GetValidImageUrl() : string (获得有效的图片地址的方法，重载3次)">
+            <siteMapNode title="string (数据库存储的图片地址), bool (是否需要规格图片) //图片服务器路径的配置键为ImageServerPath，默认图片路径配置键为DefaultImageServerPath"/>
+            <siteMapNode title="string (数据库存储的图片地址), string (图片服务器路径), string (默认图片路径), bool (是否需要规格图片)"/>
+            <siteMapNode title="string (数据库存储的图片地址), string (图片路径后缀) //图片服务器路径的配置键为ImageServerPath，默认图片路径配置键为DefaultImageServerPath"/>
+            <siteMapNode title="string (数据库存储的图片地址), string (图片路径后缀), string (图片服务器路径), string (默认图片路径)"/>
+          </siteMapNode>
+          <siteMapNode title="CompressionImage() : bool (图片压缩的方法)">
+            <siteMapNode title="string (原有图片路径), bool (要压缩的宽度)"/>
+          </siteMapNode>
+          <siteMapNode title="AbbreviatoryImageWidth() : bool (按宽度压缩图片的方法)">
+            <siteMapNode title="string (图片完整路径), int (图片压缩宽度), string (压缩后的文件名)"/>
+          </siteMapNode>
+          <siteMapNode title="AbbreviatoryImageHeight() : bool (按高度压缩图片的方法)">
+            <siteMapNode title="string (图片完整路径), int (图片压缩高度), string (压缩后的文件名)"/>
+          </siteMapNode>
+          <siteMapNode title="CreateAbbreviatoryImage() : void (创建缩略图的方法)">
+            <siteMapNode title="string (图片完整路径), int (图片压缩宽度)"/>
+          </siteMapNode>
+          <siteMapNode title="RegularPicSize() : bool (判断图片大小是否合格的方法)">
+            <siteMapNode title="int (允许宽度), int (允许高度), string (图片完整路径)"/>
+          </siteMapNode>
+          <siteMapNode title="GetAbbrevaiatoryImageName() : string (获得压缩图片名称的方法，重载1次)">
+            <siteMapNode title="string (图片完整路径)"/>
+            <siteMapNode title="string (图片完整路径), string (扩展名)"/>
+          </siteMapNode>
+          <siteMapNode title="AddWaterMark() : void (添加水印的方法)">
+            <siteMapNode title="string (图片物理路径), string (图片数据库路径), WaterMarkType (枚举，水印类型), WaterMarkPosition (枚举，水印位置), string (水印内容)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--LogHelper-->
+        <siteMapNode title="LogHelper (对日志进行处理的类)">
+          <siteMapNode title="ErrorLog() : void (记录错误日志的方法，重载1次)">
+            <siteMapNode title="Exception (异常的实例)"/>
+            <siteMapNode title="Exception (异常的实例), string (日志文件物理路径)"/>
+          </siteMapNode>
+          <siteMapNode title="CustomLog() : void (记录自定义日志信息的方法，重载1次)">
+            <siteMapNode title="string (日志信息)"/>
+            <siteMapNode title="string (日志信息), string (日志文件物理路径)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--MailHelper-->
+        <siteMapNode title="MailHelper (用于发送邮件的类)">
+          <siteMapNode title="SendEmail() : void (发送邮件的方法，重载3次)">
+            <siteMapNode title="string (接收地址，多个接收地址用逗号分隔), string (邮件主题), string (邮件内容), bool (邮件内容是否以html格式发送)"/>
+            <siteMapNode title="string (接收地址，多个接收地址用逗号分隔), string (邮件主题), string (邮件内容), bool (邮件内容是否以html格式发送), ArrayList (附件文件的集合)"/>
+            <siteMapNode title="string (邮件服务器地址), string (发送地址), string (发送密码), string (接收地址(多个接收地址用逗号分隔)), string (邮件主题), string (邮件内容), bool (邮件内容是否以html格式发送)"/>
+            <siteMapNode title="string (邮件服务器地址), string (发送地址), string (发送密码), string (接收地址(多个接收地址用逗号分隔)), string (邮件主题), string (邮件内容), bool (邮件内容是否以html格式发送), ArrayList (附件文件的集合)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--ScriptHelper-->
+        <siteMapNode title="ScriptHelper (用于在页面中输出脚本的类)">
+          <siteMapNode title="ShowAlertScript() : void (显示消息提示对话框的方法)">
+            <siteMapNode title="Page (当前页面指针，一般为this), string (提示信息)"/>
+          </siteMapNode>
+          <siteMapNode title="ShowConfirmScript() : void (控件点击消息确认提示框的方法)">
+            <siteMapNode title="WebControl (点击控件的对象), string (提示信息)"/>
+          </siteMapNode>
+          <siteMapNode title="ShowOpenScript() : void (控件点击打开窗体的方法，重载1次)">
+            <siteMapNode title="WebControl (点击控件的对象), string (打开页面的地址)"/>
+            <siteMapNode title="WebControl (点击控件的对象), string (打开页面的地址), int (打开页面的宽度), int (打开页面的高度)"/>
+          </siteMapNode>
+          <siteMapNode title="ShowOpenMaxScript() : void (控件点击打开最大化窗体的方法)">
+            <siteMapNode title="WebControl (点击控件的对象), string (打开页面的地址)"/>
+          </siteMapNode>
+          <siteMapNode title="ShowCloseScript() : void (关闭窗体的方法，重载1次)">
+            <siteMapNode title="Page (当前页面指针，一般为this)"/>
+            <siteMapNode title="WebControl (点击控件的对象)"/>
+          </siteMapNode>
+          <siteMapNode title="ShowAlertAndCloseScript() : void (控件点击消息确认提示框并关闭窗体、刷新父窗体的方法，重载1次)">
+            <siteMapNode title="Page (当前页面指针，一般为this), string (提示信息)"/>
+            <siteMapNode title="WebControl (点击控件的对象), string (提示信息)"/>
+          </siteMapNode>
+          <siteMapNode title="ShowAlertAndCloseRefreshScript() : void (关闭窗体的方法，重载1次)">
+            <siteMapNode title="Page (当前页面指针，一般为this), string (提示信息), string (父窗体地址)"/>
+            <siteMapNode title="WebControl (点击控件的对象), string (提示信息), string (父窗体地址)"/>
+          </siteMapNode>
+          <siteMapNode title="ShowAlertAndRedirectScript() : void (显示消息提示对话框并在当前页面进行跳转的方法)">
+            <siteMapNode title="Page (当前页面指针，一般为this), string (提示信息), string (跳转的目标地址)"/>
+          </siteMapNode>
+          <siteMapNode title="ShowAlertAndTopRedirectScript() : void (显示消息提示对话框并在最上层页面进行跳转的方法)">
+            <siteMapNode title="Page (当前页面指针，一般为this), string (提示信息), string (跳转的目标地址)"/>
+          </siteMapNode>
+          <siteMapNode title="ShowCustomScript() : void (输出自定义脚本信息的方法)">
+            <siteMapNode title="Page (当前页面指针，一般为this), string (输出脚本)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--SmsHelper-->
+        <siteMapNode title="SmsHelper (发短信相关方法的类)">
+          <siteMapNode title="SendMessage() : int (发送60个字符以内短信的方法，重载3次)">
+            <siteMapNode title="string(用逗号分割的电话号码列表), string(发送内容)"/>
+            <siteMapNode title="string(用逗号分割的电话号码列表), string(发送内容), string (优卡短信平台发送用户名), string (优卡短信平台发送密码)"/>
+            <siteMapNode title="string(用逗号分割的电话号码列表), string(发送内容), string (发送尾号)"/>
+            <siteMapNode title="string(用逗号分割的电话号码列表), string(发送内容), string (发送尾号), string (优卡短信平台发送用户名), string (优卡短信平台发送密码)"/>
+          </siteMapNode>
+          <siteMapNode title="SendLongMessage() : int (发送超过60个字符的短信，重载3次)">
+            <siteMapNode title="string(用逗号分割的电话号码列表), string(发送内容)"/>
+            <siteMapNode title="string(用逗号分割的电话号码列表), string(发送内容), string (优卡短信平台发送用户名), string (优卡短信平台发送密码)"/>
+            <siteMapNode title="string(用逗号分割的电话号码列表), string(发送内容), string (发送尾号)"/>
+            <siteMapNode title="string(用逗号分割的电话号码列表), string(发送内容), string (发送尾号), string (优卡短信平台发送用户名), string (优卡短信平台发送密码)"/>
+          </siteMapNode>
+          <siteMapNode title="ReceiveMessage() : DataSet (接收短信返回数据集的方法，重载1次)">
+            <siteMapNode title="没有参数"/>
+            <siteMapNode title="string (优卡短信平台发送用户名), string (优卡短信平台发送密码)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--StringHelper-->
+        <siteMapNode title="StringHelper (用于进行字符串处理的类)">
+          <siteMapNode title="GetRealLength() : int (获取字符串的实际字节长度的方法)">
+            <siteMapNode title="string (字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="SubString() : string (按字节数截取字符串的方法)">
+            <siteMapNode title="string (要截取的字符串), int (要截取的字节数), bool (是否需要结尾的省略号)"/>
+          </siteMapNode>
+          <siteMapNode title="TrimEndZeroForPrice() : string (去除价格小数点后末尾0的方法)">
+            <siteMapNode title="string (去0之前的价格字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="SubSpecialLengthDecimal() : string (截取规定小数点后位数的方法)">
+            <siteMapNode title="object (截取前的小数对象), int (要截取的小数位长度)"/>
+          </siteMapNode>
+          <siteMapNode title="SqlFilter() : string (过滤字符串中注入SQL脚本的方法)">
+            <siteMapNode title="string (字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="RemoveHtmlTag() : string (移除Html标签的方法)">
+            <siteMapNode title="string (移除Html标签之前的字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="GetCurrentDateString() : string (获取8位当前日期字符串的方法)">
+            <siteMapNode title="没有参数"/>
+          </siteMapNode>
+          <siteMapNode title="GetSmallCurrentDateString() : string (获取6位当前日期字符串的方法)">
+            <siteMapNode title="没有参数"/>
+          </siteMapNode>
+          <siteMapNode title="GetSpecialNumericString() : string (获取指定长度数字字符串的方法，不足位数用0填充)">
+            <siteMapNode title="int (数字), int (指定的长度)"/>
+          </siteMapNode>
+          <siteMapNode title="TrimStartZero() : string (移除数字字符串开始0的方法)">
+            <siteMapNode title="string (移除前的字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="ConvertEncoding() : string (转换字符串编码的方法，重载1次)">
+            <siteMapNode title="Encoding (转换后的编码格式), string (要进行转换的字符串)"/>
+            <siteMapNode title="Encoding (转换前的编码格式), Encoding (转换后的编码格式), string (要进行转换的字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="ConvertDbcToSbcString() : string (将全角字符串转成半角字符串的方法)">
+            <siteMapNode title="string (字符串)"/>
+          </siteMapNode>
+          <siteMapNode title="ConvertStringArrayToStrings() : string (将字符串数组转成逗号分割字符串的方法)">
+            <siteMapNode title="string[] (字符串数组)"/>
+          </siteMapNode>
+        </siteMapNode>
+        <!--XmlHelper-->
+        <siteMapNode title="XmlHelper (对XML文件进行处理的类)">
+          <siteMapNode title="GetXmlDocument() : XmlDocument (获得Xml文档对象的方法)">
+            <siteMapNode title="string (XML完整文件名)"/>
+          </siteMapNode>
+          <siteMapNode title="GetArrayListByTagName() : ArrayList (根据标记名称获得数据集合的方法)">
+            <siteMapNode title="string (XML完整文件名), string (标记名称)"/>
+          </siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="Ucar.WebControls.dll (Ucar自定义控件库; 版本:2.0.0.0; 最后更新日期:2007-10-18; 依赖项:无; 服务引用:无)">
+
+      </siteMapNode>
+      <siteMapNode title="Ucar.BaseClass.dll (Ucar基类库; 版本:2.0.0.0; 最后更新日期:2007-10-18; 依赖项:Ucar.Common.dll,Ucar.WebControls.dll; 服务引用:无)">
+        
+      </siteMapNode>
+      <siteMapNode title="Ucar.Components.dll (Ucar公用组件库; 版本:2.0.0.0; 最后更新日期:2007-10-18; 依赖项:Ucar.Common.dll,Ucar.BaseClass.dll; 服务引用:http://admin.ucar.cn/UcarService/CreateHtml.asmx)">
+        
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

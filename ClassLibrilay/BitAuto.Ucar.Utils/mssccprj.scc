@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[BitAuto.Ucar.Utils.csproj]
+SCC_Aux_Path = "\\192.168.30.240\Tech-Dev07$"
+SCC_Project_Name = "$/B二手车/Ucar类库/Src/BitAuto.Ucar.Utils", SKCQAAAA
+
+[KangHui.JianHui.Utils.csproj]
+SCC_Aux_Path = "\\Kanghui-server\vssdatabase"
+SCC_Project_Name = "$/ClassLibriary/KangHuiClassLibrary/KangHui.JianHui.Utils", RYKAAAAA

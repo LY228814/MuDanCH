@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="KangHuiClassLibrary">
+</Property><Property Name="解决方案文件" Value="I:\KangHuiClassLibrilay\KangHuiClassLibrary.sln">
+</Property><Property Name="用户选项文件" Value="I:\KangHuiClassLibrilay\KangHuiClassLibrary.suo">
+</Property><Property Name="Date" Value="2013年5月20日">
+</Property><Property Name="Time" Value="17:07">
+</Property><Property Name="日志号" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="KangHuiClassLibrary.sln" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\KangHuiClassLibrary.sln">
+</Event><Event ErrorLevel="0" Project="" Source="KangHuiClassLibrary.suo" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\KangHuiClassLibrary.suo">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\BaseClass.csproj" Description="项目文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BaseClass\BaseClass.csproj">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\BaseClass.csproj.user" Description="项目用户文件成功备份为 I:\KangHuiClassLibrilay\Backup1\BaseClass\BaseClass.csproj.user">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\DbHelpAccess.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BaseClass\DbHelpAccess.cs">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\PageBaseAccess.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BaseClass\PageBaseAccess.cs">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\ReflectionBase.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BaseClass\ReflectionBase.cs">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\DataCache.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BaseClass\DataCache.cs">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\DbHelperSQL.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BaseClass\DbHelperSQL.cs">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\PagerBase.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BaseClass\PagerBase.cs">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\Properties\AssemblyInfo.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BaseClass\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="1" Project="BaseClass" Source="BaseClass\BaseClass.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\BaseClass.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="BaseClass" Source="BaseClass\BaseClass.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="项目文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BLL\BLL.csproj">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj.user" Description="项目用户文件成功备份为 I:\KangHuiClassLibrilay\Backup1\BLL\BLL.csproj.user">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\Pager.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BLL\Pager.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\Properties\AssemblyInfo.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BLL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="1" Project="BLL" Source="BLL\BLL.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="BLL" Source="BLL\BLL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Common.csproj" Description="项目文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\Common.csproj">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Common.csproj.user" Description="项目用户文件成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\Common.csproj.user">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\BarCodeToHtmlHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\BarCodeToHtmlHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\ConfigHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\ConfigHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\ControlHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\ControlHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\ConvertHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\ConvertHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\DateTimeHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\DateTimeHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\EncryptionHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\EncryptionHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\ExcelHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\ExcelHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\FileHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\FileHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\ImageHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\ImageHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\JsonHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\JsonHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\LogHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\LogHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\MailHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\MailHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\PinYinChHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\PinYinChHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Properties\AssemblyInfo.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Properties\Settings.Designer.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\ScriptHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\ScriptHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\SerializeHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\SerializeHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\SmsHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\SmsHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\StringHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\StringHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\VideoConvertHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\VideoConvertHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Web References\Bitauto.SmsService\Reference.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\Web References\Bitauto.SmsService\Reference.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\XmlHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\XmlHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\YZMHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\YZMHelper.cs">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Web References\Bitauto.SmsService\WebService.wsdl" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\Web References\Bitauto.SmsService\WebService.wsdl">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\app.config" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\app.config">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Properties\Settings.settings" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Web References\Bitauto.SmsService\Reference.map" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\Web References\Bitauto.SmsService\Reference.map">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Web References\Bitauto.SmsService\WebService.disco" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Common\Web References\Bitauto.SmsService\WebService.disco">
+</Event><Event ErrorLevel="1" Project="Common" Source="Common\Common.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Common.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Common" Source="Common\Common.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Components.csproj" Description="项目文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Components.csproj">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Components.csproj.user" Description="项目用户文件成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Components.csproj.user">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Caching\Car_Basic.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Caching\Car_Basic.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Caching\City.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Caching\City.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Properties\AssemblyInfo.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Properties\Settings.Designer.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UcarBasicInfo\BLL.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UcarBasicInfo\BLL.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UcarBasicInfo\DAL.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UcarBasicInfo\DAL.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UcarBasicInfo\DALFactory.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UcarBasicInfo\DALFactory.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UcarBasicInfo\IDAL.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UcarBasicInfo\IDAL.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UcarBasicInfo\Model.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UcarBasicInfo\Model.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UcarQuote\BLL.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UcarQuote\BLL.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UcarQuote\DAL.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UcarQuote\DAL.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UcarQuote\DALFactory.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UcarQuote\DALFactory.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UcarQuote\IDAL.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UcarQuote\IDAL.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UcarQuote\Model.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UcarQuote\Model.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UrlRewriter\Config.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UrlRewriter\Config.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UrlRewriter\Form.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UrlRewriter\Form.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\UrlRewriter\Module.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\UrlRewriter\Module.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Web References\UcarService\Reference.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Web References\UcarService\Reference.cs">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\app.config" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\app.config">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Properties\Settings.settings" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Web References\UcarService\CreateHtml.disco" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Web References\UcarService\CreateHtml.disco">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Web References\UcarService\CreateHtml.wsdl" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Web References\UcarService\CreateHtml.wsdl">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Web References\UcarService\Reference.map" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\Components\Web References\UcarService\Reference.map">
+</Event><Event ErrorLevel="1" Project="Components" Source="Components\Components.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Components.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Components" Source="Components\Components.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="项目文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\DAL\DAL.csproj">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj.user" Description="项目用户文件成功备份为 I:\KangHuiClassLibrilay\Backup1\DAL\DAL.csproj.user">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\BaseDM.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\DAL\BaseDM.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\PagerDM.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\DAL\PagerDM.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\Properties\AssemblyInfo.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\DAL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="1" Project="DAL" Source="DAL\DAL.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="DAL" Source="DAL\DAL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\WebControls.csproj" Description="项目文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\WebControls.csproj">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\WebControls.csproj.user" Description="项目用户文件成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\WebControls.csproj.user">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\AspNetPager.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\AspNetPager.cs">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\Calendar.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\Calendar.cs">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\CtrlEnterButton.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\CtrlEnterButton.cs">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\MarqueePanel.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\MarqueePanel.cs">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\NumericTextBox.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\NumericTextBox.cs">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\OptGroupDropDownList.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\OptGroupDropDownList.cs">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\Properties\AssemblyInfo.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\StringTextBox.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\StringTextBox.cs">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\SubmitOnceButton.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\SubmitOnceButton.cs">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\AspNetPagerDocs.xml" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\AspNetPagerDocs.xml">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\AspNetPager.en.resx" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\AspNetPager.en.resx">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\AspNetPager.resx" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\WebControls\AspNetPager.resx">
+</Event><Event ErrorLevel="1" Project="WebControls" Source="WebControls\WebControls.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\WebControls.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="WebControls" Source="WebControls\WebControls.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\KangHui.JianHui.Utils.csproj" Description="项目文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\KangHui.JianHui.Utils.csproj">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Common\ConfigHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Common\ConfigHelper.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Common\ControlHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Common\ControlHelper.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Common\ConvertHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Common\ConvertHelper.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Common\EncryptHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Common\EncryptHelper.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Common\FileHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Common\FileHelper.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Common\MailHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Common\MailHelper.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Common\ScriptHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Common\ScriptHelper.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Common\StringHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Common\StringHelper.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\BackGround.Designer.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\BackGround.Designer.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\BaseClass\ImageBase.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\BaseClass\ImageBase.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\BaseClass\ImageFactory.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\BaseClass\ImageFactory.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\Enums.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\Enums.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\ImageHelper.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\ImageHelper.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\ImplClass\NoCompressionImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\ImplClass\NoCompressionImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\ImplClass\PersonalImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\ImplClass\PersonalImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\ImplClass\TranstarUcarImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\ImplClass\TranstarUcarImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\ImplClass\VendorImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\ImplClass\VendorImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\ImplClass\VendorLogoImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\ImplClass\VendorLogoImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\Interface\IBigImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\Interface\IBigImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\Interface\IMiddleImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\Interface\IMiddleImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\Interface\ISmallerImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\Interface\ISmallerImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\Interface\ISmallImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\Interface\ISmallImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\ImplClass\UcarImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\ImplClass\UcarImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WaterMark.Designer.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WaterMark.Designer.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WebControls\SuperImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WebControls\SuperImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WebControls\SuperImageDesigner.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WebControls\SuperImageDesigner.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Properties\AssemblyInfo.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\UrlRewriter\Config.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\UrlRewriter\Config.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\UrlRewriter\Form.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\UrlRewriter\Form.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\UrlRewriter\Module.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\UrlRewriter\Module.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\WebControls\ClientCalendar.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\WebControls\ClientCalendar.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\WebControls\ClientCalendarDesigner.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\WebControls\ClientCalendarDesigner.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\WebControls\MarqueePanel.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\WebControls\MarqueePanel.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\WebControls\MarqueePanelDesigner.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\WebControls\MarqueePanelDesigner.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\WebControls\SuperImage.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\WebControls\SuperImage.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\WebControls\SuperImageDesigner.cs" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\WebControls\SuperImageDesigner.cs">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\FileList.txt" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\FileList.txt">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\BackGround.resx" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\BackGround.resx">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WaterMark.resx" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WaterMark.resx">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WebResource\Default_100x75.jpg" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WebResource\Default_100x75.jpg">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WebResource\Default_180x180.jpg" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WebResource\Default_180x180.jpg">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WebResource\Default_250x187.jpg" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WebResource\Default_250x187.jpg">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WebResource\Default_300x225.jpg" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WebResource\Default_300x225.jpg">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WebResource\Default_56x56.jpg" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WebResource\Default_56x56.jpg">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WebResource\Default_80x60.jpg" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WebResource\Default_80x60.jpg">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\Imaging\WebResource\Default_85x85.jpg" Description="文件已成功备份为 I:\KangHuiClassLibrilay\Backup1\BitAuto.Ucar.Utils\Imaging\WebResource\Default_85x85.jpg">
+</Event><Event ErrorLevel="1" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\KangHui.JianHui.Utils.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\KangHui.JianHui.Utils.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\KangHui.JianHui.Utils.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="KangHuiClassLibrary.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="KangHuiClassLibrary.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BaseClass" Source="BaseClass\BaseClass.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Common.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Components" Source="Components\Components.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="WebControls" Source="WebControls\WebControls.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="KangHui.JianHui.Utils" Source="BitAuto.Ucar.Utils\KangHui.JianHui.Utils.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

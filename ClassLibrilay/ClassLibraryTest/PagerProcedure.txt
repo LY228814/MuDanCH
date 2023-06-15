@@ -1,0 +1,65 @@
+------------------------------------------------------------------
+--用途：支持任意排序的分页存储过程  
+--说明：李秋楠加入
+------------------------------------------------------------------
+
+CREATE PROCEDURE p_GetRecordByPageOrder
+ 
+ @tblName varchar(1000),   -- 表名 
+ @strGetFields varchar(1000),   -- 显示字段名 
+ @fldName varchar(255),  -- 排序字段名 
+ @PageSize int = 10,   -- 页尺寸 
+ @PageIndex int = 1,   -- 页码  
+ @OrderType bit = 0,   -- 设置排序类型, 非 0 值则降序 
+ @strWhere varchar(1000) = '',  -- 查询条件 (注意: 不要加 where)
+ @Counts  int  out -- 返回记录总数 
+AS 
+set nocount on
+ declare @strSQL varchar(6000)  -- 主语句
+ declare @CountSQL nVarchar(4000) -- 获取总行数的语句 
+ declare @strTmp varchar(100)   -- 临时变量 
+ declare @strOrder varchar(400)  -- 排序类型 
+
+if @OrderType != 0 
+ begin 
+  set @strTmp = '<(select min' 
+  set @strOrder = ' order by ' + @fldName +' desc' 
+ end 
+else 
+ begin 
+  set @strTmp = '>(select max' 
+  set @strOrder = ' order by ' + @fldName +' asc' 
+ end  
+
+if @PageIndex = 1 --如果是第一页就执行以下代码，这样会加快执行速度
+ begin 
+  if @strWhere != '' 
+   set @strSQL = 'select top ' + str(@PageSize) + ' ' + @strGetFields+ ' from ' + @tblName + ' where  ' + @strWhere + ' ' + @strOrder 
+  else 
+   set @strSQL = 'select top ' + str(@PageSize) + ' ' + @strGetFields+ ' from '+ @tblName + ' ' +  @strOrder  
+ end
+else
+ begin
+  if @strWhere != '' 
+   set @strSQL = 'select top ' + str(@PageSize) + ' ' + @strGetFields + ' from ' 
+   + @tblName + ' where ' + @fldName + @strTmp + '(' 
+   + @fldName + ') from (select top ' + str((@PageIndex-1)*@PageSize) + ' ' 
+   + @fldName + ' from ' + @tblName + ' where ' + @strWhere + ' ' 
+   + @strOrder + ') as tblTmp) and ' + @strWhere + ' ' + @strOrder
+  else
+   set @strSQL = 'select top ' + str(@PageSize) + ' ' + @strGetFields + ' from ' 
+   + @tblName + ' where ' + @fldName + @strTmp + '(' 
+   + @fldName + ') from (select top ' + str((@PageIndex-1)*@PageSize) + ' ' 
+   + @fldName + ' from ' + @tblName + ' ' + @strOrder + ') as tblTmp)' 
+   + @strOrder 
+ end
+ 
+ if @strWhere != '' 
+ set @CountSQL='select  @Counts=count(*) from  ' + @tblName + ' where ' + @strWhere
+ else
+ set @CountSQL='select  @Counts=count(*) from  ' + @tblName
+
+ exec sp_executesql @CountSQL, N'@Counts int out ',@Counts out
+ exec (@strSQL)
+set nocount off
+GO

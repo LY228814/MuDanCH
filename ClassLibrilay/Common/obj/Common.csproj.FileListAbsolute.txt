@@ -1,0 +1,6 @@
+F:\AllProject090219\B二手车\Ucar类库\Src\Common\bin\Debug\Ucar.Common.dll.config
+F:\AllProject090219\B二手车\Ucar类库\Src\Common\bin\Debug\Ucar.Common.dll
+F:\AllProject090219\B二手车\Ucar类库\Src\Common\bin\Debug\Ucar.Common.pdb
+F:\AllProject090219\B二手车\Ucar类库\Src\Common\obj\Debug\ResolveAssemblyReference.cache
+F:\AllProject090219\B二手车\Ucar类库\Src\Common\obj\Debug\Ucar.Common.dll
+F:\AllProject090219\B二手车\Ucar类库\Src\Common\obj\Debug\Ucar.Common.pdb

@@ -1,0 +1,1839 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KangHui.JianHui.Utils</name>
+    </assembly>
+    <members>
+        <member name="T:KangHui.JianHui.Utils.Common.EncryptHelper">
+            <summary>
+            对字符串进行加密的功能类
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Common.EncryptHelper.ENCRYPTKEY">
+            <summary>
+            DES加密密钥
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.EncryptHelper.DesEncrypt(System.String)">
+            <summary>
+            DES方式加密字符串的方法
+            </summary>
+            <param name="s">要进行加密的字符串</param>
+            <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.EncryptHelper.DesDecrypt(System.String)">
+            <summary>
+            DES方式解密字符串的方法
+            </summary>
+            <param name="s">要进行解密的字符串</param>
+            <returns>解密后的字符串</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.EncryptHelper.MD5Encrypt(System.String)">
+            <summary>
+            MD5方式加密字符串的方法
+            </summary>
+            <param name="s">要进行加密的字符串</param>
+            <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.EncryptHelper.SHA1Encrypt(System.String)">
+            <summary>
+            SHA1方式加密字符串的方法
+            </summary>
+            <param name="s">要进行加密的字符串</param>
+            <returns>加密后的字符串</returns>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.WebControls.ClientCalendar">
+            <summary>
+            用脚本实现的日历控件
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.WebControls.ClientCalendar.OnPreRender(System.EventArgs)">
+            <summary>
+            重写OnPreRender方法
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.WebControls.ClientCalendar.AddAttributesToRender(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            重写AddAttributesToRender方法
+            </summary>
+            <param name="output">输出流</param>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.ClientCalendar.IsWrite">
+            <summary>
+            是否可以写入日期
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.ClientCalendar.DefaultYear">
+            <summary>
+            默认选择年份
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.ClientCalendar.DefaultMonth">
+            <summary>
+            默认选择月份
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.ClientCalendar.BeforeDefaultYearCount">
+            <summary>
+            默认选择年份之前的年数
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.ClientCalendar.AfterDefaultYearCount">
+            <summary>
+            默认选择年份之后的年数
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.BackGround">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BackGround.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BackGround.Culture">
+            <summary>
+              为使用此强类型资源类的所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.Interface.IBigImage">
+            <summary>
+            大图配置的接口类
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.MaxSize">
+            <summary>
+            缩略图最大规格
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.NeedBigImage">
+            <summary>
+            是否需要大图
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.NeedBigWaterMark">
+            <summary>
+            是否需要大图水印
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.NeedBigBackGround">
+            <summary>
+            是否需要大图背景
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.BigSuffix">
+            <summary>
+            大图后缀名
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.BigWaterMarkType">
+            <summary>
+            大图水印类型
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.BigWaterMarkPosition">
+            <summary>
+            大图水印位置
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.BigWaterMarkContent">
+            <summary>
+            大图水印内容
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.BigWaterMarkImage">
+            <summary>
+            大图水印图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.BigBackGround">
+            <summary>
+            大图背景图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IBigImage.BigDefaultImage">
+            <summary>
+            大图默认图片名称
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage">
+            <summary>
+            微图配置的接口类
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.SmallerSize">
+            <summary>
+            微图规格
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.NeedSmallerImage">
+            <summary>
+            是否需要微图
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.NeedSmallerWaterMark">
+            <summary>
+            是否需要微图水印
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.NeedSmallerBackGround">
+            <summary>
+            是否需要微图背景
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.SmallerSuffix">
+            <summary>
+            微图后缀名
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.SmallerWaterMarkType">
+            <summary>
+            微图水印类型
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.SmallerWaterMarkPosition">
+            <summary>
+            微图水印位置
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.SmallerWaterMarkContent">
+            <summary>
+            微图水印内容
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.SmallerWaterMarkImage">
+            <summary>
+            微图水印图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.SmallerBackGround">
+            <summary>
+            微图背景图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallerImage.SmallerDefaultImage">
+            <summary>
+            微图默认图片名称
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase">
+            <summary>
+            图片配置基类
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage">
+            <summary>
+            小图配置的接口类
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.SmallSize">
+            <summary>
+            小图规格
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.NeedSmallImage">
+            <summary>
+            是否需要小图
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.NeedSmallWaterMark">
+            <summary>
+            是否需要小图水印
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.NeedSmallBackGround">
+            <summary>
+            是否需要小图背景
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.SmallSuffix">
+            <summary>
+            小图后缀名
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.SmallWaterMarkType">
+            <summary>
+            小图水印类型
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.SmallWaterMarkPosition">
+            <summary>
+            小图水印位置
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.SmallWaterMarkContent">
+            <summary>
+            小图水印内容
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.SmallWaterMarkImage">
+            <summary>
+            小图水印图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.SmallBackGround">
+            <summary>
+            小图背景图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.ISmallImage.SmallDefaultImage">
+            <summary>
+            小图默认图片名称
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage">
+            <summary>
+            中图配置的接口类
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.MiddleSize">
+            <summary>
+            中图规格
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.NeedMiddleImage">
+            <summary>
+            是否需要中图
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.NeedMiddleWaterMark">
+            <summary>
+            是否需要中图水印
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.NeedMiddleBackGround">
+            <summary>
+            是否需要中图背景
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.MiddleSuffix">
+            <summary>
+            中图后缀名
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.MiddleWaterMarkType">
+            <summary>
+            中图水印类型
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.MiddleWaterMarkPosition">
+            <summary>
+            中图水印位置
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.MiddleWaterMarkContent">
+            <summary>
+            中图水印内容
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.MiddleWaterMarkImage">
+            <summary>
+            中图水印图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.MiddleBackGround">
+            <summary>
+            中图背景图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.Interface.IMiddleImage.MiddleDefaultImage">
+            <summary>
+            中图默认图片名称
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallerSize">
+            <summary>
+            微图规格
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedSmallerImage">
+            <summary>
+            是否需要微图
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedSmallerWaterMark">
+            <summary>
+            是否需要微图水印
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedSmallerBackGround">
+            <summary>
+            是否需要微图背景
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallerSuffix">
+            <summary>
+            微图后缀名
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallerWaterMarkType">
+            <summary>
+            微图水印类型
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallerWaterMarkPosition">
+            <summary>
+            微图水印位置
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallerWaterMarkContent">
+            <summary>
+            微图水印内容
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallerWaterMarkImage">
+            <summary>
+            微图水印图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallerBackGround">
+            <summary>
+            微图背景图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallerDefaultImage">
+            <summary>
+            微图默认图片名称
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallSize">
+            <summary>
+            小图规格
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedSmallImage">
+            <summary>
+            是否需要小图
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedSmallWaterMark">
+            <summary>
+            是否需要小图水印
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedSmallBackGround">
+            <summary>
+            是否需要小图背景
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallSuffix">
+            <summary>
+            小图后缀名
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallWaterMarkType">
+            <summary>
+            小图水印类型
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallWaterMarkPosition">
+            <summary>
+            小图水印位置
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallWaterMarkContent">
+            <summary>
+            小图水印内容
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallWaterMarkImage">
+            <summary>
+            小图水印图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallBackGround">
+            <summary>
+            小图背景图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.SmallDefaultImage">
+            <summary>
+            小图默认图片名称
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.MiddleSize">
+            <summary>
+            中图规格
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedMiddleImage">
+            <summary>
+            是否需要中图
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedMiddleWaterMark">
+            <summary>
+            是否需要中图水印
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedMiddleBackGround">
+            <summary>
+            是否需要中图背景
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.MiddleSuffix">
+            <summary>
+            中图后缀名
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.MiddleWaterMarkType">
+            <summary>
+            中图水印类型
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.MiddleWaterMarkPosition">
+            <summary>
+            中图水印位置
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.MiddleWaterMarkContent">
+            <summary>
+            中图水印内容
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.MiddleWaterMarkImage">
+            <summary>
+            中图水印图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.MiddleBackGround">
+            <summary>
+            中图背景图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.MiddleDefaultImage">
+            <summary>
+            中图默认图片名称
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.MaxSize">
+            <summary>
+            缩略图最大规格
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedBigImage">
+            <summary>
+            是否需要大图
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedBigWaterMark">
+            <summary>
+            是否需要大图水印
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.NeedBigBackGround">
+            <summary>
+            是否需要大图背景
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.BigSuffix">
+            <summary>
+            大图后缀名
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.BigWaterMarkType">
+            <summary>
+            大图水印类型
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.BigWaterMarkPosition">
+            <summary>
+            大图水印位置
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.BigWaterMarkContent">
+            <summary>
+            大图水印内容
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.BigWaterMarkImage">
+            <summary>
+            大图水印图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.BigBackGround">
+            <summary>
+            大图背景图片
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.BaseClass.ImageBase.BigDefaultImage">
+            <summary>
+            大图默认图片名称
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Common.ControlHelper">
+            <summary>
+            对控件进行操作的功能类
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindDropDownList(System.Web.UI.WebControls.DropDownList,System.Collections.ArrayList)">
+            <summary>
+            绑定下拉框的方法
+            </summary>
+            <param name="ddl">下拉框</param>
+            <param name="aList">数据集合</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindDropDownList(System.Web.UI.WebControls.DropDownList,System.Data.DataSet)">
+            <summary>
+            绑定下拉框的方法
+            </summary>
+            <param name="ddl">下拉框</param>
+            <param name="ds">数据集</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindDropDownList(System.Web.UI.WebControls.DropDownList,System.Data.DataSet,System.String,System.String)">
+            <summary>
+            绑定下拉框的方法
+            </summary>
+            <param name="ddl">下拉框</param>
+            <param name="ds">数据集</param>
+            <param name="textField">文本字段</param>
+            <param name="valueField">值字段</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindDropDownList(System.Web.UI.WebControls.DropDownList,System.Data.DataView,System.String,System.String)">
+            <summary>
+            绑定下拉框的方法
+            </summary>
+            <param name="ddl">下拉框</param>
+            <param name="dv">自定义视图</param>
+            <param name="textField">文本字段</param>
+            <param name="valueField">值字段</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.InitDropDownListByValue(System.Web.UI.WebControls.DropDownList,System.String)">
+            <summary>
+            根据值初始化下拉框的方法
+            </summary>
+            <param name="ddl">下拉框</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindRadioButtonList(System.Web.UI.WebControls.RadioButtonList,System.Collections.ArrayList)">
+            <summary>
+            绑定单选框列表的方法
+            </summary>
+            <param name="rbl">单选框列表</param>
+            <param name="aList">数据集合</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindRadioButtonList(System.Web.UI.WebControls.RadioButtonList,System.Data.DataSet)">
+            <summary>
+            绑定单选框列表的方法
+            </summary>
+            <param name="rbl">单选框列表</param>
+            <param name="ds">数据集</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindRadioButtonList(System.Web.UI.WebControls.RadioButtonList,System.Data.DataSet,System.String,System.String)">
+            <summary>
+            绑定单选框列表的方法
+            </summary>
+            <param name="rbl">单选框列表</param>
+            <param name="ds">数据集</param>
+            <param name="textField">文本字段</param>
+            <param name="valueField">值字段</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindRadioButtonList(System.Web.UI.WebControls.RadioButtonList,System.Data.DataView,System.String,System.String)">
+            <summary>
+            绑定单选框列表的方法
+            </summary>
+            <param name="rbl">单选框列表</param>
+            <param name="dv">自定义视图</param>
+            <param name="textField">文本字段</param>
+            <param name="valueField">值字段</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindCheckBoxList(System.Web.UI.WebControls.CheckBoxList,System.Collections.ArrayList)">
+            <summary>
+            绑定复选框列表的方法
+            </summary>
+            <param name="cbl">复选框列表</param>
+            <param name="aList">数据集合</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindCheckBoxList(System.Web.UI.WebControls.CheckBoxList,System.Data.DataSet)">
+            <summary>
+            绑定复选框列表的方法
+            </summary>
+            <param name="cbl">复选框列表</param>
+            <param name="ds">数据集</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindCheckBoxList(System.Web.UI.WebControls.CheckBoxList,System.Data.DataSet,System.String,System.String)">
+            <summary>
+            绑定复选框列表的方法
+            </summary>
+            <param name="cbl">复选框列表</param>
+            <param name="ds">数据集</param>
+            <param name="textField">文本字段</param>
+            <param name="valueField">值字段</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.BindCheckBoxList(System.Web.UI.WebControls.CheckBoxList,System.Data.DataView,System.String,System.String)">
+            <summary>
+            绑定复选框列表的方法
+            </summary>
+            <param name="cbl">复选框列表</param>
+            <param name="dv">自定义视图</param>
+            <param name="textField">文本字段</param>
+            <param name="valueField">值字段</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.InitCheckBoxList(System.Web.UI.WebControls.CheckBoxList,System.String[])">
+            <summary>
+            初始化复选框列表的方法
+            </summary>
+            <param name="cbl">复选框列表</param>
+            <param name="strs">数据字符串数组</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.InitCheckBoxList(System.Web.UI.WebControls.CheckBoxList,System.String)">
+            <summary>
+            初始化复选框列表的方法
+            </summary>
+            <param name="cbl">复选框列表</param>
+            <param name="str">逗号分割的数据字符串</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.GetCheckBoxListValues(System.Web.UI.WebControls.CheckBoxList)">
+            <summary>
+            获取复选框列表值的方法
+            </summary>
+            <param name="cbl">复选框列表</param>
+            <returns>复选框列表值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.GetCheckBoxListValueArray(System.Web.UI.WebControls.CheckBoxList)">
+            <summary>
+            获取复选框列表值的方法
+            </summary>
+            <param name="cbl">复选框列表</param>
+            <returns>复选框列表值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.SelectAllCheckBoxListItems(System.Web.UI.WebControls.CheckBoxList)">
+            <summary>
+            全选复选框列表的方法
+            </summary>
+            <param name="cbl">复选框列表</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ControlHelper.CancelSelectAllCheckBoxListItems(System.Web.UI.WebControls.CheckBoxList)">
+            <summary>
+            取消全选复选框列表的方法
+            </summary>
+            <param name="cbl">复选框列表</param>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.WebControls.SuperImage">
+            <summary>
+            自定义的图片显示控件
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.WebControls.SuperImage">
+            <summary>
+            自定义的图片显示控件
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.WebControls.SuperImage.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            将控件呈现给指定的HTML编写器
+            </summary>
+            <param name="writer">控件输出流</param>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.SuperImage.ImageServerPath">
+            <summary>
+            图片服务器的网络路径（默认读取配置文件appSettings节点下key为ImageServerPath的配置）
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.SuperImage.ChildFolder">
+            <summary>
+            图片子目录
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.SuperImage.ImageDbPath">
+            <summary>
+            图片在数据库储存的路径
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.SuperImage.DefaultImagePath">
+            <summary>
+            默认图片的网络路径
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.SuperImage.ImageType">
+            <summary>
+            图片类型
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.SuperImage.MicroImageType">
+            <summary>
+            缩略图片类型
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.ImplClass.VendorLogoImage">
+            <summary>
+            经销商Logo图片配置实现类
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.UrlRewriter.FormRewriterControlAdapter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.FormRewriterControlAdapter.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.FormRewriterControlAdapter.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.UrlRewriter.RewriteFormHtmlTextWriter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriteFormHtmlTextWriter.#ctor(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriteFormHtmlTextWriter.#ctor(System.IO.TextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriteFormHtmlTextWriter.WriteAttribute(System.String,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="value"></param>
+            <param name="fEncode"></param>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.ImplClass.VendorImage">
+            <summary>
+            经销商图片配置实现类
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.ImplClass.TranstarUcarImage">
+            <summary>
+            车商通车源图片配置实现类
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.BaseClass.ImageFactory">
+            <summary>
+            图片工厂类
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.BaseClass.ImageFactory.GetInstance(KangHui.JianHui.Utils.Imaging.ImageType)">
+            <summary>
+            实例化对象的方法
+            </summary>
+            <param name="imageType">图片类型</param>
+            <returns>实例化的对象</returns>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.ImageHelper">
+            <summary>
+            对图片进行处理的功能类
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.SaveImage(System.String,System.String@,KangHui.JianHui.Utils.Imaging.ImageType)">
+            <summary>
+            保存上传图片的方法
+            </summary>
+            <param name="imgLocalPath">图片服务器物理路径</param>
+            <param name="imgDbPath">图片在数据库储存的路径（当图片保存失败时会返回错误信息）</param>
+            <param name="imageType">图片类型</param>
+            <returns>保存结果</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.SaveImage(System.String,System.String@,KangHui.JianHui.Utils.Imaging.ImageType,System.Web.HttpPostedFile)">
+            <summary>
+            保存上传图片的方法
+            </summary>
+            <param name="imgLocalPath">图片服务器物理路径</param>
+            <param name="imgDbPath">图片在数据库储存的路径（当图片保存失败时会返回错误信息）</param>
+            <param name="imageType">图片类型</param>
+            <param name="postedFile">上传图片的文件对象</param>
+            <returns>保存结果</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.SaveImage(System.String,System.String,System.String@,KangHui.JianHui.Utils.Imaging.ImageType)">
+            <summary>
+            保存上传图片的方法
+            </summary>
+            <param name="imgLocalPath">图片服务器物理路径</param>
+            <param name="childFolder">图片子目录</param>
+            <param name="imgDbPath">图片在数据库储存的路径（当图片保存失败时会返回错误信息）</param>
+            <param name="imageType">图片类型</param>
+            <returns>保存结果</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.SaveImage(System.String,System.String,System.String@,KangHui.JianHui.Utils.Imaging.ImageType,System.Web.HttpPostedFile)">
+            <summary>
+            保存上传图片的方法
+            </summary>
+            <param name="imgLocalPath">图片服务器物理路径</param>
+            <param name="childFolder">图片子目录</param>
+            <param name="imgDbPath">图片在数据库储存的路径（当图片保存失败时会返回错误信息）</param>
+            <param name="imageType">图片类型</param>
+            <param name="postedFile">上传图片的文件对象</param>
+            <returns>保存结果</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.CompressImageByType(System.String,System.String,System.String,KangHui.JianHui.Utils.Imaging.ImageType)">
+            <summary>
+            根据图片类型压缩图片的方法
+            </summary>
+            <param name="imgLocalPath">图片服务器物理路径</param>
+            <param name="childFolder">图片子目录</param>
+            <param name="imgDbPath">图片在数据库储存的路径（当图片保存失败时会返回错误信息）</param>
+            <param name="imageType">图片类型</param>
+            <returns>压缩结果</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.CompressImageBySize(System.String,System.String,System.Drawing.Size)">
+            <summary>
+            根据尺寸压缩图片的方法
+            </summary>
+            <param name="srcImageName">压缩前的图片名称</param>
+            <param name="destImageName">压缩后的图片名称</param>
+            <param name="size">压缩的尺寸</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.CompressImage(System.Drawing.Image,System.String,System.Drawing.Size)">
+            <summary>
+            压缩图片的方法
+            </summary>
+            <param name="srcImage">图片对象</param>
+            <param name="destImageName">目标文件名</param>
+            <param name="size">要压缩到的尺寸</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.AddWaterMark(System.String,KangHui.JianHui.Utils.Imaging.WaterMarkType,KangHui.JianHui.Utils.Imaging.WaterMarkPosition,System.String,System.Drawing.Bitmap)">
+            <summary>
+            添加水印的方法
+            </summary>
+            <param name="srcImageName">要加水印的图片名称</param>
+            <param name="type">水印类型</param>
+            <param name="position">水印位置</param>
+            <param name="content">水印内容</param>
+            <param name="watermark">水印图片</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.AddTextWatermark(System.Drawing.Graphics,System.String,KangHui.JianHui.Utils.Imaging.WaterMarkPosition,System.Int32,System.Int32)">
+            <summary>
+            加水印文字的方法
+            </summary>
+            <param name="picture">Graphics 对象</param>
+            <param name="watermarkText">水印文字内容</param>
+            <param name="watermarkPosition">水印位置</param>
+            <param name="width">被加水印图片的宽</param>
+            <param name="height">被加水印图片的高</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.AddImageWatermark(System.Drawing.Graphics,System.Drawing.Bitmap,KangHui.JianHui.Utils.Imaging.WaterMarkPosition,System.Int32,System.Int32)">
+            <summary>
+            加水印图片的方法
+            </summary>
+            <param name="picture">Graphics 对象</param>
+            <param name="watermark">水印图片</param>
+            <param name="watermarkPosition">水印位置</param>
+            <param name="width">被加水印图片的宽</param>
+            <param name="height">被加水印图片的高</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Imaging.ImageHelper.AddBackGround(System.String,System.Drawing.Bitmap)">
+            <summary>
+            加背景图片的方法
+            </summary>
+            <param name="srcImageName">要加背景的图片名称</param>
+            <param name="bgImage">背景图片</param>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Common.StringHelper">
+            <summary>
+            对字符串进行处理的功能类
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.StringHelper.GetByteLength(System.String)">
+            <summary>
+            获取字符串的实际字节长度的方法
+            </summary>
+            <param name="s">字符串</param>
+            <returns>实际长度</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.StringHelper.SubStringByBytes(System.String,System.Int32,System.Boolean)">
+            <summary>
+            按字节数截取字符串的方法
+            </summary>
+            <param name="s">要截取的字符串</param>
+            <param name="bytes">要截取的字节数</param>
+            <param name="needEndDot">是否需要结尾的省略号</param>
+            <returns>截取后的字符串</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.StringHelper.ConvertEncoding(System.Text.Encoding,System.String)">
+            <summary>
+            转换字符串编码的方法
+            </summary>
+            <param name="dstEncoding">转换后的编码格式</param>
+            <param name="s">要进行转换的字符串</param>
+            <returns>转换后的字符串</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.StringHelper.ConvertEncoding(System.Text.Encoding,System.Text.Encoding,System.String)">
+            <summary>
+            转换字符串编码的方法
+            </summary>
+            <param name="srcEncoding">转换前的编码格式</param>
+            <param name="dstEncoding">转换后的编码格式</param>
+            <param name="s">要进行转换的字符串</param>
+            <returns>转换后的字符串</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.StringHelper.ConvertDbcToSbcString(System.String)">
+            <summary>
+            将全角字符串转成半角字符串的方法
+            </summary>
+            <param name="s">字符串</param>
+            <returns>半角字符串</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.StringHelper.ConvertDbcToSbcChar(System.Char)">
+            <summary>
+            将全角字符转成半角字符的方法
+            </summary>
+            <param name="c">转换前的字符</param>
+            <returns>半角字符</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.StringHelper.Replace(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            根据正则表达式替换字符串内容的方法
+            </summary>
+            <param name="s">要进行替换的字符串</param>
+            <param name="regExp">替换部分的正则表达式</param>
+            <param name="replacement">替换的内容</param>
+            <param name="ignoreCase">是否忽略大小写</param>
+            <returns>替换后的字符串</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.StringHelper.IsMatchRegularExpression(System.String,System.String)">
+            <summary>
+            判断字符串是否匹配正则表达式的方法
+            </summary>
+            <param name="s">字符串</param>
+            <param name="regExp">正则表达式</param>
+            <returns>判断结果：true-是，false-否</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.StringHelper.GetFirstCharPY(System.String)">
+            <summary>
+            获取字符串首字母的方法
+            </summary>
+            <param name="s">字符串</param>
+            <returns>首字母</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.StringHelper.GetPYByCode(System.Int32)">
+            <summary>
+            根据区位码获取首字母的方法
+            </summary>
+            <param name="gbCode">区位码</param>
+            <returns>首字母</returns>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Common.RegularExpression">
+            <summary>
+            存放正则表达式的类
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Common.RegularExpression.TelephoneNumber">
+            <summary>
+            座机号的正则表达式
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Common.RegularExpression.MobilePhoneNumber">
+            <summary>
+            手机号的正则表达式
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Common.RegularExpression.IDCard">
+            <summary>
+            身份证号的正则表达式
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Common.RegularExpression.PostCode">
+            <summary>
+            邮政编码的正则表达式
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Common.RegularExpression.Email">
+            <summary>
+            电子邮件地址的正则表达式
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.ImplClass.PersonalImage">
+            <summary>
+            个人图片配置实现类
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.ImplClass.NoCompressionImage">
+            <summary>
+            无需压缩的图片的配置实现类
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Common.ConvertHelper">
+            <summary>
+            对数据类型进行转换的功能类
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConvertHelper.ToString(System.Object)">
+            <summary>
+            将对象变量转成字符串变量的方法
+            </summary>
+            <param name="obj">对象变量</param>
+            <returns>字符串变量</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConvertHelper.ToInt32(System.Object)">
+            <summary>
+            将对象变量转成32位整数型变量的方法
+            </summary>
+            <param name="obj">对象变量</param>
+            <returns>32位整数型变量</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConvertHelper.ToInt64(System.Object)">
+            <summary>
+            将对象变量转成64位整数型变量的方法
+            </summary>
+            <param name="obj">对象变量</param>
+            <returns>64位整数型变量</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConvertHelper.ToDouble(System.Object)">
+            <summary>
+            将对象变量转成双精度浮点型变量的方法
+            </summary>
+            <param name="obj">对象变量</param>
+            <returns>双精度浮点型变量</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConvertHelper.ToDecimal(System.Object)">
+            <summary>
+            将对象变量转成十进制数字变量的方法
+            </summary>
+            <param name="obj">对象变量</param>
+            <returns>十进制数字变量</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConvertHelper.ToBoolean(System.Object)">
+            <summary>
+            将对象变量转成布尔型变量的方法
+            </summary>
+            <param name="obj">对象变量</param>
+            <returns>布尔型变量</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConvertHelper.ToDateTime(System.Object)">
+            <summary>
+            将对象变量转成日期型变量的方法
+            </summary>
+            <param name="obj">对象变量</param>
+            <returns>日期型变量</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConvertHelper.ToStringArray(System.String,System.Char)">
+            <summary>
+            根据分隔符将字符串变量转成字符串数组的方法
+            </summary>
+            <param name="s">字符串变量</param>
+            <param name="seperator">分隔符</param>
+            <returns>字符串数组</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConvertHelper.ToInt32Array(System.String,System.Char)">
+            <summary>
+            根据分隔符将字符串变量转成32位整数型数组的方法
+            </summary>
+            <param name="s">字符串变量</param>
+            <param name="seperator">分隔符</param>
+            <returns>32位整数型数组</returns>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.UrlRewriter.RewriterModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriterModule.Init(System.Web.HttpApplication)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriterModule.URLRewriter(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriterModule.Dispose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.UrlRewriter.RewriterUtils">
+            <summary>
+            Provides utility helper methods for the rewriting HttpModule and HttpHandler.
+            </summary>
+            <remarks>This class is marked as internal, meaning only classes in the same assembly will be
+            able to access its methods.</remarks>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriterUtils.RewriteUrl(System.Web.HttpContext,System.String)">
+            <summary>
+            Rewrite's a URL using <b>HttpContext.RewriteUrl()</b>.
+            </summary>
+            <param name="context">The HttpContext object to rewrite the URL to.</param>
+            <param name="sendToUrl">The URL to rewrite to.</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriterUtils.RewriteUrl(System.Web.HttpContext,System.String,System.String@,System.String@)">
+            <summary>
+            Rewrite's a URL using <b>HttpContext.RewriteUrl()</b>.
+            </summary>
+            <param name="context">The HttpContext object to rewrite the URL to.</param>
+            <param name="sendToUrl">The URL to rewrite to.</param>
+            <param name="sendToUrlLessQString">Returns the value of sendToUrl stripped of the querystring.</param>
+            <param name="filePath">Returns the physical file path to the requested page.</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriterUtils.ResolveUrl(System.String,System.String)">
+            <summary>
+            Converts a URL into one that is usable on the requesting client.
+            </summary>
+            <remarks>Converts ~ to the requesting application path.  Mimics the behavior of the 
+            <b>Control.ResolveUrl()</b> method, which is often used by control developers.</remarks>
+            <param name="appPath">The application path.</param>
+            <param name="url">The URL, which might contain ~.</param>
+            <returns>A resolved URL.  If the input parameter <b>url</b> contains ~, it is replaced with the
+            value of the <b>appPath</b> parameter.</returns>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.UrlRewriter.RewriteUrlConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriteUrlConfig.GetConfig">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.UrlRewriter.RewriteUrlSection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.UrlRewriter.RewriteUrlSection.RewriteUrls">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.UrlRewriter.RewriteUrlCollection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriteUrlCollection.CreateNewElement">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.UrlRewriter.RewriteUrlCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+            <summary>
+            
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.UrlRewriter.RewriteUrlCollection.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.UrlRewriter.RewriteUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.UrlRewriter.RewriteUrl.VirtualUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.UrlRewriter.RewriteUrl.DestinationUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.WaterMark">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.WaterMark.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.Imaging.WaterMark.Culture">
+            <summary>
+              为使用此强类型资源类的所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.WebControls.MarqueePanel">
+            <summary>
+            可以实现连续无缝滚动效果的容器控件
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.WebControls.MarqueePanel.RenderContents(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="output"></param>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.MarqueePanel.InnerHtml">
+            <summary>
+            滚动内容的HTML代码
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.MarqueePanel.Width">
+            <summary>
+            控件的宽度
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.MarqueePanel.Height">
+            <summary>
+            控件的高度
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.MarqueePanel.Speed">
+            <summary>
+            移动的速度，值越大速度越慢
+            </summary>
+        </member>
+        <member name="P:KangHui.JianHui.Utils.WebControls.MarqueePanel.MarqueeDirection">
+            <summary>
+            内容移动的方向
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.WebControls.MarqueeDirection">
+            <summary>
+            内容移动的方向的枚举
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.WebControls.MarqueeDirection.Up">
+            <summary>
+            向上
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.WebControls.MarqueeDirection.Down">
+            <summary>
+            向下
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.WebControls.MarqueeDirection.Left">
+            <summary>
+            向左
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.WebControls.MarqueeDirection.Right">
+            <summary>
+            向右
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.UcarImage">
+            <summary>
+            优卡车源图片配置实现类
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Common.FileHelper">
+            <summary>
+            对文件进行处理的功能类
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.IsExist(System.String)">
+            <summary>
+            判断文件是否存在的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+            <returns>True:存在,False:不存在</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.CreateDirectory(System.String)">
+            <summary>
+            创建目录的方法
+            </summary>
+            <param name="directory">要创建目录的路径</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.GetSuffix(System.String)">
+            <summary>
+            取扩展名的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+            <returns>扩展名</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.CopyFile(System.String,System.String)">
+            <summary>
+            复制文件的方法
+            </summary>
+            <param name="srcFileName">源文件名</param>
+            <param name="destFileName">目标文件名</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.DeleteFile(System.String)">
+            <summary>
+            删除文件的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.ReadFile(System.String)">
+            <summary>
+            读取文件内容的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+            <returns>文件内容</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.ReadFile(System.String,System.Text.Encoding)">
+            <summary>
+            读取文件内容的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+            <param name="encoding">文件编码</param>
+            <returns>文件内容</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.AppendFile(System.String,System.String)">
+            <summary>
+            追加文件内容的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+            <param name="content">要追加的内容</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.AppendFile(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            追加文件内容的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+            <param name="content">要追加的内容</param>
+            <param name="encoding">文件编码</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.UpdateFile(System.String,System.String)">
+            <summary>
+            更新文件内容的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+            <param name="content">要追加的内容</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.UpdateFile(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            更新文件内容的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+            <param name="content">要更新的内容</param>
+            <param name="encoding">文件编码</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.UpdateOrAppendFile(System.String,System.String,System.Text.Encoding,System.IO.FileMode)">
+            <summary>
+            更新或追加文件内容的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+            <param name="content">要追加的内容</param>
+            <param name="encoding">文件编码</param>
+            <param name="mode">打开文件的方式</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.SaveFile(System.String,System.String@,System.Web.HttpPostedFile)">
+            <summary>
+            保存上传文件的方法
+            </summary>
+            <param name="fileLocalPath">文件服务器物理路经</param>
+            <param name="fileDbPath">文件在数据库储存的路径</param>
+            <param name="postedFile">上传的文件对象</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.SaveFile(System.String,System.String,System.String@,System.Web.HttpPostedFile)">
+            <summary>
+            保存上传文件的方法
+            </summary>
+            <param name="fileLocalPath">文件服务器物理路经</param>
+            <param name="childFolder">文件子目录</param>
+            <param name="fileDbPath">文件在数据库储存的路径</param>
+            <param name="postedFile">上传的文件对象</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.DownloadFile(System.String,System.String)">
+            <summary>
+            下载文件的方法
+            </summary>
+            <param name="srcFileName">完整文件名</param>
+            <param name="showName">下载显示的文件名</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.ReadWebFile(System.String)">
+            <summary>
+            读取网络文件内容的方法
+            </summary>
+            <param name="url">网络文件路径</param>
+            <returns>网络文件内容</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.ReadWebFile(System.String,System.Text.Encoding)">
+            <summary>
+            读取网络文件内容的方法
+            </summary>
+            <param name="url">网络文件路径</param>
+            <param name="encoding">网络文件编码</param>
+            <returns>网络文件内容</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.GetFiles(System.String,System.Boolean)">
+            <summary>
+            获取指定目录下所有文件名的方法
+            </summary>
+            <param name="path">指定的目录</param>
+            <param name="includeChildFolder">是否包含子目录</param>
+            <returns>获取到的文件名</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.GetFiles(System.String,System.String[],System.Boolean)">
+            <summary>
+            获取指定目录下所有文件名的方法
+            </summary>
+            <param name="path">指定的目录</param>
+            <param name="filters">文件名过滤条件</param>
+            <param name="includeChildFolder">是否包含子目录</param>
+            <returns>获取到的文件名</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.FileHelper.GetFiles(System.String,System.String[],System.Boolean,System.Collections.Generic.List{System.String})">
+            <summary>
+            获取指定目录下所有文件名的方法
+            </summary>
+            <param name="path">指定的目录</param>
+            <param name="filters">文件名过滤条件</param>
+            <param name="includeChildFolder">是否包含子目录</param>
+            <param name="fileList">文件列表</param>
+            <returns>获取到的文件名</returns>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Common.MailHelper">
+            <summary>
+            发送邮件的功能类
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.MailHelper.SendEmail(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            发送邮件的方法
+            </summary>
+            <param name="strto">接收地址(多个接收地址用逗号分隔)</param>
+            <param name="strSubject">邮件主题</param>
+            <param name="strBody">邮件内容</param>
+            <param name="isHtmlFormat">邮件内容是否以html格式发送</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.MailHelper.SendEmail(System.String,System.String,System.String,System.Boolean,System.Collections.ArrayList)">
+            <summary>
+            发送邮件的方法
+            </summary>
+            <param name="strto">接收地址(多个接收地址用逗号分隔)</param>
+            <param name="strSubject">邮件主题</param>
+            <param name="strBody">邮件内容</param>
+            <param name="isHtmlFormat">邮件内容是否以html格式发送</param>
+            <param name="files">附件文件的集合</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.MailHelper.SendEmail(System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            发送邮件的方法
+            </summary>
+            <param name="strSmtpServer">邮件服务器地址</param>
+            <param name="strFrom">发送地址</param>
+            <param name="strFromPass">发送密码</param>
+            <param name="strto">接收地址(多个接收地址用逗号分隔)</param>
+            <param name="strSubject">邮件主题</param>
+            <param name="strBody">邮件内容</param>
+            <param name="isHtmlFormat">邮件内容是否以html格式发送</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.MailHelper.SendEmail(System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Collections.ArrayList)">
+            <summary>
+            发送邮件的方法
+            </summary>
+            <param name="strSmtpServer">邮件服务器地址</param>
+            <param name="strFrom">发送地址</param>
+            <param name="strFromPass">发送密码</param>
+            <param name="strto">接收地址(多个接收地址用逗号分隔)</param>
+            <param name="strSubject">邮件主题</param>
+            <param name="strBody">邮件内容</param>
+            <param name="isHtmlFormat">邮件内容是否以html格式发送</param>
+            <param name="files">附件文件的集合</param>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Common.ConfigHelper">
+            <summary>
+            读取配置文件信息的功能类
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetAppSettingValue(System.String)">
+            <summary>
+            读取配置信息的方法，返回字符串
+            </summary>
+            <param name="key">配置信息键</param>
+            <returns>字符串型的配置信息值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetAppSettingValue(System.String,System.Boolean)">
+            <summary>
+            读取配置信息的方法，返回字符串
+            </summary>
+            <param name="key">配置信息键</param>
+            <param name="throwException">配置文件里没有该配置时是否抛出异常</param>
+            <returns>字符串型的配置信息值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetAppSettingStringArrayValue(System.String)">
+            <summary>
+            读取配置信息的方法，返回字符串数组
+            </summary>
+            <param name="key">配置信息键</param>
+            <returns>字符串数组型的配置信息值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetAppSettingStringArrayValue(System.String,System.Boolean)">
+            <summary>
+            读取配置信息的方法，返回字符串数组
+            </summary>
+            <param name="key">配置信息键</param>
+            <param name="throwException">配置文件里没有该配置时是否抛出异常</param>
+            <returns>字符串数组型的配置信息值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetAppSettingInt32Value(System.String)">
+            <summary>
+            读取配置信息的方法，返回整数
+            </summary>
+            <param name="key">配置信息键</param>
+            <returns>整数型的配置信息值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetAppSettingInt32Value(System.String,System.Boolean)">
+            <summary>
+            读取配置信息的方法，返回整数
+            </summary>
+            <param name="key">配置信息键</param>
+            <param name="throwException">配置文件里没有该配置时是否抛出异常</param>
+            <returns>整数型的配置信息值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetAppSettingInt32ArrayValue(System.String)">
+            <summary>
+            读取配置信息的方法，返回整数数组
+            </summary>
+            <param name="key">配置信息键</param>
+            <returns>整数数组型的配置信息值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetAppSettingInt32ArrayValue(System.String,System.Boolean)">
+            <summary>
+            读取配置信息的方法，返回整数数组
+            </summary>
+            <param name="key">配置信息键</param>
+            <param name="throwException">配置文件里没有该配置时是否抛出异常</param>
+            <returns>整数数组型的配置信息值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetAppSettingBooleanValue(System.String)">
+            <summary>
+            读取配置信息的方法，返回布尔型变量
+            </summary>
+            <param name="key">配置信息键</param>
+            <returns>布尔型的配置信息值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetAppSettingBooleanValue(System.String,System.Boolean)">
+            <summary>
+            读取配置信息的方法，返回布尔型变量
+            </summary>
+            <param name="key">配置信息键</param>
+            <param name="throwException">配置文件里没有该配置时是否抛出异常</param>
+            <returns>布尔型的配置信息值</returns>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ConfigHelper.GetConnectionString(System.String)">
+            <summary>
+            读取连接字符串信息的方法
+            </summary>
+            <param name="key">连接字符串信息键</param>
+            <returns>连接字符串信息值</returns>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.ImageType">
+            <summary>
+            图片类型
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.ImageType.UcarImage">
+            <summary>
+            优卡车源图片
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.ImageType.TranstarUcarImage">
+            <summary>
+            车商通车源图片
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.ImageType.VendorImage">
+            <summary>
+            经销商图片
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.ImageType.VendorLogoImage">
+            <summary>
+            经销商Logo图片
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.ImageType.PersonalImage">
+            <summary>
+            个人图片
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.ImageType.NoCompressionImage">
+            <summary>
+            无需压缩的图片
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.MicroImageType">
+            <summary>
+            缩略图类型
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.MicroImageType.Smaller">
+            <summary>
+            微图
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.MicroImageType.Small">
+            <summary>
+            小图
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.MicroImageType.Middle">
+            <summary>
+            中图
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.MicroImageType.Big">
+            <summary>
+            大图
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.MicroImageType.Source">
+            <summary>
+            原图
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.WaterMarkType">
+            <summary>
+            水印类型
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.WaterMarkType.Image">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.WaterMarkType.Text">
+            <summary>
+            文字
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Imaging.WaterMarkPosition">
+            <summary>
+            图片水印的位置
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.WaterMarkPosition.TopLeft">
+            <summary>
+            左上方
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.WaterMarkPosition.TopRight">
+            <summary>
+            右上方
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.WaterMarkPosition.BottomLeft">
+            <summary>
+            左下方
+            </summary>
+        </member>
+        <member name="F:KangHui.JianHui.Utils.Imaging.WaterMarkPosition.BottomRight">
+            <summary>
+            右下方
+            </summary>
+        </member>
+        <member name="T:KangHui.JianHui.Utils.Common.ScriptHelper">
+            <summary>
+            在页面中输出脚本的功能类
+            </summary>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowAlertScript(System.Web.UI.Page,System.String)">
+            <summary>
+            显示消息提示对话框的方法
+            </summary>
+            <param name="page">当前页面指针，一般为this</param>
+            <param name="msg">提示信息</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowConfirmScript(System.Web.UI.WebControls.WebControl,System.String)">
+            <summary>
+            点击控件消息确认提示框的方法
+            </summary>
+            <param name="control">点击控件的对象</param>
+            <param name="msg">提示信息</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowOpenScript(System.Web.UI.WebControls.WebControl,System.String)">
+            <summary>
+            点击控件打开窗体的方法
+            </summary>
+            <param name="control">点击控件的对象</param>
+            <param name="url">打开页面的地址</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowOpenScript(System.Web.UI.WebControls.WebControl,System.String,System.Int32,System.Int32)">
+            <summary>
+            点击控件打开窗体的方法
+            </summary>
+            <param name="control">点击控件的对象</param>
+            <param name="url">打开页面的地址</param>
+            <param name="width">打开页面的宽度</param>
+            <param name="height">打开页面的高度</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowOpenMaxScript(System.Web.UI.WebControls.WebControl,System.String)">
+            <summary>
+            点击控件打开最大化窗体的方法
+            </summary>
+            <param name="control">点击控件的对象</param>
+            <param name="url">打开页面的地址</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowCloseScript(System.Web.UI.Page)">
+            <summary>
+            关闭窗体的方法
+            </summary>
+            <param name="page">当前页面指针，一般为this</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowCloseScript(System.Web.UI.WebControls.WebControl)">
+            <summary>
+            点击控件关闭窗体的方法
+            </summary>
+            <param name="control">点击控件的对象</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowAlertAndCloseScript(System.Web.UI.Page,System.String)">
+            <summary>
+            显示消息确认提示框，并关闭窗体的方法
+            </summary>
+            <param name="page">当前页面指针，一般为this</param>
+            <param name="msg">提示信息</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowAlertAndCloseScript(System.Web.UI.WebControls.WebControl,System.String)">
+            <summary>
+            控件点击消息确认提示框，并关闭窗体的方法
+            </summary>
+            <param name="Control">点击控件的对象</param>
+            <param name="msg">提示信息</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowAlertAndCloseRefreshScript(System.Web.UI.Page,System.String,System.String)">
+            <summary>
+            显示消息确认提示框，并关闭窗体，刷新父窗体的方法
+            </summary>
+            <param name="page">当前页面指针，一般为this</param>
+            <param name="msg">提示信息</param>
+            <param name="url">父窗体地址</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowAlertAndCloseRefreshScript(System.Web.UI.WebControls.WebControl,System.String,System.String)">
+            <summary>
+            点击控件消息确认提示框，并关闭窗体，刷新父窗体的方法
+            </summary>
+            <param name="Control">点击控件的对象</param>
+            <param name="msg">提示信息</param>
+            <param name="url">父窗体地址</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowAlertAndRedirectScript(System.Web.UI.Page,System.String,System.String)">
+            <summary>
+            显示消息提示对话框，并在当前页面进行跳转的方法
+            </summary>
+            <param name="page">当前页面指针，一般为this</param>
+            <param name="msg">提示信息</param>
+            <param name="url">跳转的目标地址</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowAlertAndTopRedirectScript(System.Web.UI.Page,System.String,System.String)">
+            <summary>
+            显示消息提示对话框，并在最上层页面进行跳转的方法
+            </summary>
+            <param name="page">当前页面指针，一般为this</param>
+            <param name="msg">提示信息</param>
+            <param name="url">跳转的目标地址</param>
+        </member>
+        <member name="M:KangHui.JianHui.Utils.Common.ScriptHelper.ShowCustomScript(System.Web.UI.Page,System.String)">
+            <summary>
+            输出自定义脚本信息的方法
+            </summary>
+            <param name="page">当前页面指针，一般为this</param>
+            <param name="script">输出脚本</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,128 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C290068-FE4C-4AD9-8EF0-605BE1E29B91}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KangHui.JianHui.Utils</RootNamespace>
+    <AssemblyName>KangHui.JianHui.Utils</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\KangHui.JianHui.Utils.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\ConfigHelper.cs" />
+    <Compile Include="Common\ControlHelper.cs" />
+    <Compile Include="Common\ConvertHelper.cs" />
+    <Compile Include="Common\EncryptHelper.cs" />
+    <Compile Include="Common\FileHelper.cs" />
+    <Compile Include="Common\MailHelper.cs" />
+    <Compile Include="Common\ScriptHelper.cs" />
+    <Compile Include="Common\StringHelper.cs" />
+    <Compile Include="Imaging\BackGround.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BackGround.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Imaging\BaseClass\ImageBase.cs" />
+    <Compile Include="Imaging\BaseClass\ImageFactory.cs" />
+    <Compile Include="Imaging\Enums.cs" />
+    <Compile Include="Imaging\ImageHelper.cs" />
+    <Compile Include="Imaging\ImplClass\NoCompressionImage.cs" />
+    <Compile Include="Imaging\ImplClass\PersonalImage.cs" />
+    <Compile Include="Imaging\ImplClass\TranstarUcarImage.cs" />
+    <Compile Include="Imaging\ImplClass\VendorImage.cs" />
+    <Compile Include="Imaging\ImplClass\VendorLogoImage.cs" />
+    <Compile Include="Imaging\Interface\IBigImage.cs" />
+    <Compile Include="Imaging\Interface\IMiddleImage.cs" />
+    <Compile Include="Imaging\Interface\ISmallerImage.cs" />
+    <Compile Include="Imaging\Interface\ISmallImage.cs" />
+    <Compile Include="Imaging\ImplClass\UcarImage.cs" />
+    <Compile Include="Imaging\WaterMark.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WaterMark.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Imaging\WebControls\SuperImage.cs" />
+    <Compile Include="Imaging\WebControls\SuperImageDesigner.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UrlRewriter\Config.cs" />
+    <Compile Include="UrlRewriter\Form.cs" />
+    <Compile Include="UrlRewriter\Module.cs" />
+    <Compile Include="WebControls\ClientCalendar.cs" />
+    <Compile Include="WebControls\ClientCalendarDesigner.cs" />
+    <Compile Include="WebControls\MarqueePanel.cs" />
+    <Compile Include="WebControls\MarqueePanelDesigner.cs" />
+    <Compile Include="WebControls\SuperImage.cs" />
+    <Compile Include="WebControls\SuperImageDesigner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Imaging\BackGround.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BackGround.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Imaging\WaterMark.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WaterMark.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Imaging\WebResource\Default_100x75.jpg" />
+    <EmbeddedResource Include="Imaging\WebResource\Default_180x180.jpg" />
+    <EmbeddedResource Include="Imaging\WebResource\Default_250x187.jpg" />
+    <EmbeddedResource Include="Imaging\WebResource\Default_300x225.jpg" />
+    <EmbeddedResource Include="Imaging\WebResource\Default_56x56.jpg" />
+    <EmbeddedResource Include="Imaging\WebResource\Default_80x60.jpg" />
+    <EmbeddedResource Include="Imaging\WebResource\Default_85x85.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FileList.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

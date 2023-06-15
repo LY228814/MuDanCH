@@ -1,0 +1,10 @@
+D:\Desktop\NET实训\MuDanCH\MuDanCH.Model\bin\Debug\MuDanCH.Model.dll
+D:\Desktop\NET实训\MuDanCH\MuDanCH.Model\bin\Debug\MuDanCH.Model.pdb
+D:\Desktop\NET实训\MuDanCH\MuDanCH.Model\obj\Debug\MuDanCH.Model.dll
+D:\Desktop\NET实训\MuDanCH\MuDanCH.Model\obj\Debug\MuDanCH.Model.pdb
+C:\Users\YUANPP\Desktop\NET实训\MuDanCH\MuDanCH.Model\bin\Debug\MuDanCH.Model.dll
+C:\Users\YUANPP\Desktop\NET实训\MuDanCH\MuDanCH.Model\bin\Debug\MuDanCH.Model.pdb
+C:\Users\YUANPP\Desktop\NET实训\MuDanCH\MuDanCH.Model\obj\Debug\MuDanCH.Model.csproj.CoreCompileInputs.cache
+C:\Users\YUANPP\Desktop\NET实训\MuDanCH\MuDanCH.Model\obj\Debug\MuDanCH.Model.dll
+C:\Users\YUANPP\Desktop\NET实训\MuDanCH\MuDanCH.Model\obj\Debug\MuDanCH.Model.pdb
+C:\Users\YUANPP\Desktop\NET实训\MuDanCH\MuDanCH.Model\obj\Debug\MuDanCH.Model.csprojAssemblyReference.cache

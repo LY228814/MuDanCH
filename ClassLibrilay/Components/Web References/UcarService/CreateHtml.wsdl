@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CreateRecommandHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateRecommandHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateDayHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateDayHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateWeekHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateWeekHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateAppraiserListHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateAppraiserListHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateBlogListHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateBlogListHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHotPostListHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHotPostListHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHotBlogHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHotBlogHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateBespokeRecommandListHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateBespokeRecommandListHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateNewsListHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateNewsListHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHtml_Up">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHtml_UpResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHtmlNew_Up">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHtmlNew_UpResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHtmlNew_Down">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHtmlNew_DownResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHtml_Down">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHtml_DownResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateQDetailHtml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="moc_Id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateQDetailHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHotQuestionListHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateHotQuestionListHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateIndexQuestionHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateIndexQuestionHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateSinaIndexQuestionHtml">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateSinaIndexQuestionHtmlResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateTranstarCarSourceList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PublishRange" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="VendorUcarID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateTranstarCarSourceListResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateCarInfoTemplate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UcarID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCarInfoTemplateResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CreateRecommandHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateRecommandHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateRecommandHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateRecommandHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDayHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateDayHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateDayHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateDayHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateWeekHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateWeekHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateWeekHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateWeekHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateAppraiserListHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateAppraiserListHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateAppraiserListHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateAppraiserListHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateBlogListHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateBlogListHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateBlogListHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateBlogListHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateHotPostListHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateHotPostListHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateHotPostListHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateHotPostListHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateHotBlogHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateHotBlogHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateHotBlogHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateHotBlogHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateBespokeRecommandListHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateBespokeRecommandListHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateBespokeRecommandListHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateBespokeRecommandListHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateNewsListHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateNewsListHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateNewsListHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateNewsListHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateHtml_UpSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateHtml_Up" />
+  </wsdl:message>
+  <wsdl:message name="CreateHtml_UpSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateHtml_UpResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateHtmlNew_UpSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateHtmlNew_Up" />
+  </wsdl:message>
+  <wsdl:message name="CreateHtmlNew_UpSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateHtmlNew_UpResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateHtmlNew_DownSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateHtmlNew_Down" />
+  </wsdl:message>
+  <wsdl:message name="CreateHtmlNew_DownSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateHtmlNew_DownResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateHtml_DownSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateHtml_Down" />
+  </wsdl:message>
+  <wsdl:message name="CreateHtml_DownSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateHtml_DownResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateQDetailHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateQDetailHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateQDetailHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateQDetailHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateHotQuestionListHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateHotQuestionListHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateHotQuestionListHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateHotQuestionListHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateIndexQuestionHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateIndexQuestionHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateIndexQuestionHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateIndexQuestionHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateSinaIndexQuestionHtmlSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateSinaIndexQuestionHtml" />
+  </wsdl:message>
+  <wsdl:message name="CreateSinaIndexQuestionHtmlSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateSinaIndexQuestionHtmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateTranstarCarSourceListSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateTranstarCarSourceList" />
+  </wsdl:message>
+  <wsdl:message name="CreateTranstarCarSourceListSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateTranstarCarSourceListResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateCarInfoTemplateSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateCarInfoTemplate" />
+  </wsdl:message>
+  <wsdl:message name="CreateCarInfoTemplateSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateCarInfoTemplateResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CreateHtmlSoap">
+    <wsdl:operation name="CreateRecommandHtml">
+      <wsdl:input message="tns:CreateRecommandHtmlSoapIn" />
+      <wsdl:output message="tns:CreateRecommandHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDayHtml">
+      <wsdl:input message="tns:CreateDayHtmlSoapIn" />
+      <wsdl:output message="tns:CreateDayHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateWeekHtml">
+      <wsdl:input message="tns:CreateWeekHtmlSoapIn" />
+      <wsdl:output message="tns:CreateWeekHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateAppraiserListHtml">
+      <wsdl:input message="tns:CreateAppraiserListHtmlSoapIn" />
+      <wsdl:output message="tns:CreateAppraiserListHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBlogListHtml">
+      <wsdl:input message="tns:CreateBlogListHtmlSoapIn" />
+      <wsdl:output message="tns:CreateBlogListHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateHotPostListHtml">
+      <wsdl:input message="tns:CreateHotPostListHtmlSoapIn" />
+      <wsdl:output message="tns:CreateHotPostListHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateHotBlogHtml">
+      <wsdl:input message="tns:CreateHotBlogHtmlSoapIn" />
+      <wsdl:output message="tns:CreateHotBlogHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBespokeRecommandListHtml">
+      <wsdl:input message="tns:CreateBespokeRecommandListHtmlSoapIn" />
+      <wsdl:output message="tns:CreateBespokeRecommandListHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateNewsListHtml">
+      <wsdl:input message="tns:CreateNewsListHtmlSoapIn" />
+      <wsdl:output message="tns:CreateNewsListHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtml_Up">
+      <wsdl:input message="tns:CreateHtml_UpSoapIn" />
+      <wsdl:output message="tns:CreateHtml_UpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtmlNew_Up">
+      <wsdl:input message="tns:CreateHtmlNew_UpSoapIn" />
+      <wsdl:output message="tns:CreateHtmlNew_UpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtmlNew_Down">
+      <wsdl:input message="tns:CreateHtmlNew_DownSoapIn" />
+      <wsdl:output message="tns:CreateHtmlNew_DownSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtml_Down">
+      <wsdl:input message="tns:CreateHtml_DownSoapIn" />
+      <wsdl:output message="tns:CreateHtml_DownSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateQDetailHtml">
+      <wsdl:input message="tns:CreateQDetailHtmlSoapIn" />
+      <wsdl:output message="tns:CreateQDetailHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateHotQuestionListHtml">
+      <wsdl:input message="tns:CreateHotQuestionListHtmlSoapIn" />
+      <wsdl:output message="tns:CreateHotQuestionListHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateIndexQuestionHtml">
+      <wsdl:input message="tns:CreateIndexQuestionHtmlSoapIn" />
+      <wsdl:output message="tns:CreateIndexQuestionHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateSinaIndexQuestionHtml">
+      <wsdl:input message="tns:CreateSinaIndexQuestionHtmlSoapIn" />
+      <wsdl:output message="tns:CreateSinaIndexQuestionHtmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateTranstarCarSourceList">
+      <wsdl:input message="tns:CreateTranstarCarSourceListSoapIn" />
+      <wsdl:output message="tns:CreateTranstarCarSourceListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCarInfoTemplate">
+      <wsdl:input message="tns:CreateCarInfoTemplateSoapIn" />
+      <wsdl:output message="tns:CreateCarInfoTemplateSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CreateHtmlSoap" type="tns:CreateHtmlSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateRecommandHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateRecommandHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDayHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateDayHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateWeekHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateWeekHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAppraiserListHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateAppraiserListHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBlogListHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateBlogListHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHotPostListHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateHotPostListHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHotBlogHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateHotBlogHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBespokeRecommandListHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateBespokeRecommandListHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateNewsListHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateNewsListHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtml_Up">
+      <soap:operation soapAction="http://tempuri.org/CreateHtml_Up" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtmlNew_Up">
+      <soap:operation soapAction="http://tempuri.org/CreateHtmlNew_Up" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtmlNew_Down">
+      <soap:operation soapAction="http://tempuri.org/CreateHtmlNew_Down" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtml_Down">
+      <soap:operation soapAction="http://tempuri.org/CreateHtml_Down" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateQDetailHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateQDetailHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHotQuestionListHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateHotQuestionListHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateIndexQuestionHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateIndexQuestionHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSinaIndexQuestionHtml">
+      <soap:operation soapAction="http://tempuri.org/CreateSinaIndexQuestionHtml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateTranstarCarSourceList">
+      <soap:operation soapAction="http://tempuri.org/CreateTranstarCarSourceList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCarInfoTemplate">
+      <soap:operation soapAction="http://tempuri.org/CreateCarInfoTemplate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CreateHtmlSoap12" type="tns:CreateHtmlSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateRecommandHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateRecommandHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDayHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateDayHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateWeekHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateWeekHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAppraiserListHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateAppraiserListHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBlogListHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateBlogListHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHotPostListHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateHotPostListHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHotBlogHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateHotBlogHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBespokeRecommandListHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateBespokeRecommandListHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateNewsListHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateNewsListHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtml_Up">
+      <soap12:operation soapAction="http://tempuri.org/CreateHtml_Up" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtmlNew_Up">
+      <soap12:operation soapAction="http://tempuri.org/CreateHtmlNew_Up" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtmlNew_Down">
+      <soap12:operation soapAction="http://tempuri.org/CreateHtmlNew_Down" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHtml_Down">
+      <soap12:operation soapAction="http://tempuri.org/CreateHtml_Down" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateQDetailHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateQDetailHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateHotQuestionListHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateHotQuestionListHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateIndexQuestionHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateIndexQuestionHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSinaIndexQuestionHtml">
+      <soap12:operation soapAction="http://tempuri.org/CreateSinaIndexQuestionHtml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateTranstarCarSourceList">
+      <soap12:operation soapAction="http://tempuri.org/CreateTranstarCarSourceList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCarInfoTemplate">
+      <soap12:operation soapAction="http://tempuri.org/CreateCarInfoTemplate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CreateHtml">
+    <wsdl:port name="CreateHtmlSoap" binding="tns:CreateHtmlSoap">
+      <soap:address location="http://admin.ucar.cn/UcarService/CreateHtml.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CreateHtmlSoap12" binding="tns:CreateHtmlSoap12">
+      <soap12:address location="http://admin.ucar.cn/UcarService/CreateHtml.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
